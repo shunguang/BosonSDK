@@ -2,6 +2,7 @@
 #define BOSON_BUILTIN_HANDLERS_H
 
 #include <stdint.h>
+#include <stdbool.h>
 
 extern void byteToBOOL(const uint8_t*inBuff, _Bool *outVal);
 extern void byteToCHAR(const uint8_t*inBuff, int8_t *outVal);

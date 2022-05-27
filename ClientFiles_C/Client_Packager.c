@@ -24,7 +24,7 @@ static uint32_t commandCount = 0;
 FLR_RESULT CLIENT_pkgGaoSetGainState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -56,7 +56,7 @@ FLR_RESULT CLIENT_pkgGaoSetGainState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetGainState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -89,7 +89,7 @@ FLR_RESULT CLIENT_pkgGaoGetGainState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetFfcState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -121,7 +121,7 @@ FLR_RESULT CLIENT_pkgGaoSetFfcState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetFfcState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -154,7 +154,7 @@ FLR_RESULT CLIENT_pkgGaoGetFfcState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetTempCorrectionState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -186,7 +186,7 @@ FLR_RESULT CLIENT_pkgGaoSetTempCorrectionState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetTempCorrectionState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -219,7 +219,7 @@ FLR_RESULT CLIENT_pkgGaoGetTempCorrectionState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetIConstL(const int16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -251,7 +251,7 @@ FLR_RESULT CLIENT_pkgGaoSetIConstL(const int16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetIConstL(int16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -284,7 +284,7 @@ FLR_RESULT CLIENT_pkgGaoGetIConstL(int16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetIConstM(const int16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -316,7 +316,7 @@ FLR_RESULT CLIENT_pkgGaoSetIConstM(const int16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetIConstM(int16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -349,7 +349,7 @@ FLR_RESULT CLIENT_pkgGaoGetIConstM(int16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetAveragerState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -381,7 +381,7 @@ FLR_RESULT CLIENT_pkgGaoSetAveragerState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetAveragerState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -414,7 +414,7 @@ FLR_RESULT CLIENT_pkgGaoGetAveragerState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetNumFFCFrames(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -446,7 +446,7 @@ FLR_RESULT CLIENT_pkgGaoSetNumFFCFrames(const uint16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetNumFFCFrames(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -479,7 +479,7 @@ FLR_RESULT CLIENT_pkgGaoGetNumFFCFrames(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoGetAveragerThreshold(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -512,7 +512,7 @@ FLR_RESULT CLIENT_pkgGaoGetAveragerThreshold(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -544,7 +544,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -577,7 +577,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetTestRampState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -609,7 +609,7 @@ FLR_RESULT CLIENT_pkgGaoSetTestRampState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetTestRampState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -642,7 +642,7 @@ FLR_RESULT CLIENT_pkgGaoGetTestRampState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetSffcState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -674,7 +674,7 @@ FLR_RESULT CLIENT_pkgGaoSetSffcState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetSffcState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -707,7 +707,7 @@ FLR_RESULT CLIENT_pkgGaoGetSffcState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetNucType(const FLR_GAO_NUC_TYPE_E nucType) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -739,7 +739,7 @@ FLR_RESULT CLIENT_pkgGaoSetNucType(const FLR_GAO_NUC_TYPE_E nucType) {
 FLR_RESULT CLIENT_pkgGaoGetNucType(FLR_GAO_NUC_TYPE_E *nucType) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -772,7 +772,7 @@ FLR_RESULT CLIENT_pkgGaoGetNucType(FLR_GAO_NUC_TYPE_E *nucType) {
 FLR_RESULT CLIENT_pkgGaoSetFfcZeroMeanState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -804,7 +804,7 @@ FLR_RESULT CLIENT_pkgGaoSetFfcZeroMeanState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetFfcZeroMeanState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -837,7 +837,7 @@ FLR_RESULT CLIENT_pkgGaoGetFfcZeroMeanState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetCombineMeansEnableState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -869,7 +869,7 @@ FLR_RESULT CLIENT_pkgGaoSetCombineMeansEnableState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgGaoGetCombineMeansEnableState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -902,7 +902,7 @@ FLR_RESULT CLIENT_pkgGaoGetCombineMeansEnableState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsPopThreshold(const uint16_t threshold) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -934,7 +934,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsPopThreshold(const uint16_t threshold) {
 FLR_RESULT CLIENT_pkgGaoGetRnsPopThreshold(uint16_t *threshold) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -967,7 +967,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsPopThreshold(uint16_t *threshold) {
 FLR_RESULT CLIENT_pkgGaoSetRnsCloseThreshold(const uint16_t threshold) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -999,7 +999,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsCloseThreshold(const uint16_t threshold) {
 FLR_RESULT CLIENT_pkgGaoGetRnsCloseThreshold(uint16_t *threshold) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1032,7 +1032,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsCloseThreshold(uint16_t *threshold) {
 FLR_RESULT CLIENT_pkgGaoSetRnsTooFewQuit(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1064,7 +1064,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsTooFewQuit(const uint16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsTooFewQuit(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1097,7 +1097,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsTooFewQuit(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsTooFew(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1129,7 +1129,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsTooFew(const uint16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsTooFew(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1162,7 +1162,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsTooFew(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsMinCorrection(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1194,7 +1194,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsMinCorrection(const uint16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsMinCorrection(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1227,7 +1227,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsMinCorrection(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsDamping(const uint8_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1259,7 +1259,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsDamping(const uint8_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsDamping(uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1292,7 +1292,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsDamping(uint8_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsFrameHysteresis(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1324,7 +1324,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsFrameHysteresis(const uint16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsFrameHysteresis(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1357,7 +1357,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsFrameHysteresis(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsBadDamping(const uint8_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1389,7 +1389,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsBadDamping(const uint8_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsBadDamping(uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1422,7 +1422,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsBadDamping(uint8_t *data) {
 FLR_RESULT CLIENT_pkgGaoSetRnsNumGoodDampingThreshold(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1454,7 +1454,7 @@ FLR_RESULT CLIENT_pkgGaoSetRnsNumGoodDampingThreshold(const uint16_t data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsNumGoodDampingThreshold(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1487,7 +1487,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsNumGoodDampingThreshold(uint16_t *data) {
 FLR_RESULT CLIENT_pkgGaoGetRnsFfcDesired(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1520,7 +1520,7 @@ FLR_RESULT CLIENT_pkgGaoGetRnsFfcDesired(uint32_t *data) {
 FLR_RESULT CLIENT_pkgGaoGetAveragerDesiredState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1557,7 +1557,7 @@ FLR_RESULT CLIENT_pkgGaoGetAveragerDesiredState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgRoicGetFPATemp(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1590,7 +1590,7 @@ FLR_RESULT CLIENT_pkgRoicGetFPATemp(uint16_t *data) {
 FLR_RESULT CLIENT_pkgRoicGetFrameCount(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1623,7 +1623,7 @@ FLR_RESULT CLIENT_pkgRoicGetFrameCount(uint32_t *data) {
 FLR_RESULT CLIENT_pkgRoicGetActiveNormalizationTarget(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1656,7 +1656,7 @@ FLR_RESULT CLIENT_pkgRoicGetActiveNormalizationTarget(uint16_t *data) {
 FLR_RESULT CLIENT_pkgRoicSetFPARampState(const FLR_ENABLE_E state) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1688,7 +1688,7 @@ FLR_RESULT CLIENT_pkgRoicSetFPARampState(const FLR_ENABLE_E state) {
 FLR_RESULT CLIENT_pkgRoicGetFPARampState(FLR_ENABLE_E *state) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1721,7 +1721,7 @@ FLR_RESULT CLIENT_pkgRoicGetFPARampState(FLR_ENABLE_E *state) {
 FLR_RESULT CLIENT_pkgRoicGetSensorADC1(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1754,7 +1754,7 @@ FLR_RESULT CLIENT_pkgRoicGetSensorADC1(uint16_t *data) {
 FLR_RESULT CLIENT_pkgRoicGetSensorADC2(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1787,7 +1787,7 @@ FLR_RESULT CLIENT_pkgRoicGetSensorADC2(uint16_t *data) {
 FLR_RESULT CLIENT_pkgRoicSetFPATempOffset(const int16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1819,7 +1819,7 @@ FLR_RESULT CLIENT_pkgRoicSetFPATempOffset(const int16_t data) {
 FLR_RESULT CLIENT_pkgRoicGetFPATempOffset(int16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1852,7 +1852,7 @@ FLR_RESULT CLIENT_pkgRoicGetFPATempOffset(int16_t *data) {
 FLR_RESULT CLIENT_pkgRoicSetFPATempMode(const FLR_ROIC_TEMP_MODE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1884,7 +1884,7 @@ FLR_RESULT CLIENT_pkgRoicSetFPATempMode(const FLR_ROIC_TEMP_MODE_E data) {
 FLR_RESULT CLIENT_pkgRoicGetFPATempMode(FLR_ROIC_TEMP_MODE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1917,7 +1917,7 @@ FLR_RESULT CLIENT_pkgRoicGetFPATempMode(FLR_ROIC_TEMP_MODE_E *data) {
 FLR_RESULT CLIENT_pkgRoicGetFPATempTable(FLR_ROIC_FPATEMP_TABLE_T *table) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 64;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1950,7 +1950,7 @@ FLR_RESULT CLIENT_pkgRoicGetFPATempTable(FLR_ROIC_FPATEMP_TABLE_T *table) {
 FLR_RESULT CLIENT_pkgRoicSetFPATempValue(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -1982,7 +1982,7 @@ FLR_RESULT CLIENT_pkgRoicSetFPATempValue(const uint16_t data) {
 FLR_RESULT CLIENT_pkgRoicGetFPATempValue(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2015,7 +2015,7 @@ FLR_RESULT CLIENT_pkgRoicGetFPATempValue(uint16_t *data) {
 FLR_RESULT CLIENT_pkgRoicGetPreambleError(uint32_t *preambleError) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2048,7 +2048,7 @@ FLR_RESULT CLIENT_pkgRoicGetPreambleError(uint32_t *preambleError) {
 FLR_RESULT CLIENT_pkgRoicInducePreambleError(const uint32_t everyNthFrame) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2080,7 +2080,7 @@ FLR_RESULT CLIENT_pkgRoicInducePreambleError(const uint32_t everyNthFrame) {
 FLR_RESULT CLIENT_pkgRoicGetRoicStarted(FLR_ENABLE_E *roicStarted) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2115,7 +2115,7 @@ FLR_RESULT CLIENT_pkgRoicGetRoicStarted(FLR_ENABLE_E *roicStarted) {
 FLR_RESULT CLIENT_pkgBprGetState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2148,7 +2148,7 @@ FLR_RESULT CLIENT_pkgBprGetState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgBprSetState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2180,7 +2180,7 @@ FLR_RESULT CLIENT_pkgBprSetState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgBprGetStats(uint32_t *threeby, uint32_t *fiveby, uint32_t *rows, uint32_t *budget, uint32_t *used) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 20;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2257,7 +2257,7 @@ FLR_RESULT CLIENT_pkgBprGetStats(uint32_t *threeby, uint32_t *fiveby, uint32_t *
 FLR_RESULT CLIENT_pkgBprGetDisplayMode(FLR_BPR_DISPLAY_MODE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2290,7 +2290,7 @@ FLR_RESULT CLIENT_pkgBprGetDisplayMode(FLR_BPR_DISPLAY_MODE_E *data) {
 FLR_RESULT CLIENT_pkgBprSetDisplayMode(const FLR_BPR_DISPLAY_MODE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2322,7 +2322,7 @@ FLR_RESULT CLIENT_pkgBprSetDisplayMode(const FLR_BPR_DISPLAY_MODE_E data) {
 FLR_RESULT CLIENT_pkgBprGetDisplayModeMinValue(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2355,7 +2355,7 @@ FLR_RESULT CLIENT_pkgBprGetDisplayModeMinValue(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBprSetDisplayModeMinValue(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2387,7 +2387,7 @@ FLR_RESULT CLIENT_pkgBprSetDisplayModeMinValue(const uint16_t data) {
 FLR_RESULT CLIENT_pkgBprGetDisplayModeMaxValue(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2420,7 +2420,7 @@ FLR_RESULT CLIENT_pkgBprGetDisplayModeMaxValue(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBprSetDisplayModeMaxValue(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2452,7 +2452,7 @@ FLR_RESULT CLIENT_pkgBprSetDisplayModeMaxValue(const uint16_t data) {
 FLR_RESULT CLIENT_pkgBprGetWorkBufIndex(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2485,7 +2485,7 @@ FLR_RESULT CLIENT_pkgBprGetWorkBufIndex(uint32_t *data) {
 FLR_RESULT CLIENT_pkgBprSetWorkBufIndex(const uint32_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2517,7 +2517,7 @@ FLR_RESULT CLIENT_pkgBprSetWorkBufIndex(const uint32_t data) {
 FLR_RESULT CLIENT_pkgBprGetWorkBufStats(uint32_t *threeby, uint32_t *fiveby, uint32_t *rows, uint32_t *budget, uint32_t *used) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 20;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2596,7 +2596,7 @@ FLR_RESULT CLIENT_pkgBprGetWorkBufStats(uint32_t *threeby, uint32_t *fiveby, uin
 FLR_RESULT CLIENT_pkgTelemetrySetState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2628,7 +2628,7 @@ FLR_RESULT CLIENT_pkgTelemetrySetState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgTelemetryGetState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2661,7 +2661,7 @@ FLR_RESULT CLIENT_pkgTelemetryGetState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgTelemetrySetLocation(const FLR_TELEMETRY_LOC_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2693,7 +2693,7 @@ FLR_RESULT CLIENT_pkgTelemetrySetLocation(const FLR_TELEMETRY_LOC_E data) {
 FLR_RESULT CLIENT_pkgTelemetryGetLocation(FLR_TELEMETRY_LOC_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2726,7 +2726,7 @@ FLR_RESULT CLIENT_pkgTelemetryGetLocation(FLR_TELEMETRY_LOC_E *data) {
 FLR_RESULT CLIENT_pkgTelemetrySetPacking(const FLR_TELEMETRY_PACKING_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2758,7 +2758,7 @@ FLR_RESULT CLIENT_pkgTelemetrySetPacking(const FLR_TELEMETRY_PACKING_E data) {
 FLR_RESULT CLIENT_pkgTelemetryGetPacking(FLR_TELEMETRY_PACKING_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2793,7 +2793,7 @@ FLR_RESULT CLIENT_pkgTelemetryGetPacking(FLR_TELEMETRY_PACKING_E *data) {
 FLR_RESULT CLIENT_pkgBosonGetCameraSN(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2826,7 +2826,7 @@ FLR_RESULT CLIENT_pkgBosonGetCameraSN(uint32_t *data) {
 FLR_RESULT CLIENT_pkgBosonGetCameraPN(FLR_BOSON_PARTNUMBER_T *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 20;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2859,7 +2859,7 @@ FLR_RESULT CLIENT_pkgBosonGetCameraPN(FLR_BOSON_PARTNUMBER_T *data) {
 FLR_RESULT CLIENT_pkgBosonGetSensorSN(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2892,7 +2892,7 @@ FLR_RESULT CLIENT_pkgBosonGetSensorSN(uint32_t *data) {
 FLR_RESULT CLIENT_pkgBosonRunFFC() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2914,7 +2914,7 @@ FLR_RESULT CLIENT_pkgBosonRunFFC() {
 FLR_RESULT CLIENT_pkgBosonSetFFCTempThreshold(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2946,7 +2946,7 @@ FLR_RESULT CLIENT_pkgBosonSetFFCTempThreshold(const uint16_t data) {
 FLR_RESULT CLIENT_pkgBosonGetFFCTempThreshold(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -2979,7 +2979,7 @@ FLR_RESULT CLIENT_pkgBosonGetFFCTempThreshold(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBosonSetFFCFrameThreshold(const uint32_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3011,7 +3011,7 @@ FLR_RESULT CLIENT_pkgBosonSetFFCFrameThreshold(const uint32_t data) {
 FLR_RESULT CLIENT_pkgBosonGetFFCFrameThreshold(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3044,7 +3044,7 @@ FLR_RESULT CLIENT_pkgBosonGetFFCFrameThreshold(uint32_t *data) {
 FLR_RESULT CLIENT_pkgBosonGetFFCInProgress(int16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3077,7 +3077,7 @@ FLR_RESULT CLIENT_pkgBosonGetFFCInProgress(int16_t *data) {
 FLR_RESULT CLIENT_pkgBosonReboot() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3099,7 +3099,7 @@ FLR_RESULT CLIENT_pkgBosonReboot() {
 FLR_RESULT CLIENT_pkgBosonSetFFCMode(const FLR_BOSON_FFCMODE_E ffcMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3131,7 +3131,7 @@ FLR_RESULT CLIENT_pkgBosonSetFFCMode(const FLR_BOSON_FFCMODE_E ffcMode) {
 FLR_RESULT CLIENT_pkgBosonGetFFCMode(FLR_BOSON_FFCMODE_E *ffcMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3164,7 +3164,7 @@ FLR_RESULT CLIENT_pkgBosonGetFFCMode(FLR_BOSON_FFCMODE_E *ffcMode) {
 FLR_RESULT CLIENT_pkgBosonSetGainMode(const FLR_BOSON_GAINMODE_E gainMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3196,7 +3196,7 @@ FLR_RESULT CLIENT_pkgBosonSetGainMode(const FLR_BOSON_GAINMODE_E gainMode) {
 FLR_RESULT CLIENT_pkgBosonGetGainMode(FLR_BOSON_GAINMODE_E *gainMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3229,7 +3229,7 @@ FLR_RESULT CLIENT_pkgBosonGetGainMode(FLR_BOSON_GAINMODE_E *gainMode) {
 FLR_RESULT CLIENT_pkgBosonWriteDynamicHeaderToFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3251,7 +3251,7 @@ FLR_RESULT CLIENT_pkgBosonWriteDynamicHeaderToFlash() {
 FLR_RESULT CLIENT_pkgBosonReadDynamicHeaderFromFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3273,7 +3273,7 @@ FLR_RESULT CLIENT_pkgBosonReadDynamicHeaderFromFlash() {
 FLR_RESULT CLIENT_pkgBosonRestoreFactoryDefaultsFromFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3295,7 +3295,7 @@ FLR_RESULT CLIENT_pkgBosonRestoreFactoryDefaultsFromFlash() {
 FLR_RESULT CLIENT_pkgBosonRestoreFactoryBadPixelsFromFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3317,7 +3317,7 @@ FLR_RESULT CLIENT_pkgBosonRestoreFactoryBadPixelsFromFlash() {
 FLR_RESULT CLIENT_pkgBosonWriteBadPixelsToFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3339,7 +3339,7 @@ FLR_RESULT CLIENT_pkgBosonWriteBadPixelsToFlash() {
 FLR_RESULT CLIENT_pkgBosonGetSoftwareRev(uint32_t *major, uint32_t *minor, uint32_t *patch) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 12;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3394,7 +3394,7 @@ FLR_RESULT CLIENT_pkgBosonGetSoftwareRev(uint32_t *major, uint32_t *minor, uint3
 FLR_RESULT CLIENT_pkgBosonSetBadPixelLocation(const uint32_t row, const uint32_t col) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3436,7 +3436,7 @@ FLR_RESULT CLIENT_pkgBosonSetBadPixelLocation(const uint32_t row, const uint32_t
 FLR_RESULT CLIENT_pkgBosonlookupFPATempDegCx10(int16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3469,7 +3469,7 @@ FLR_RESULT CLIENT_pkgBosonlookupFPATempDegCx10(int16_t *data) {
 FLR_RESULT CLIENT_pkgBosonlookupFPATempDegKx10(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3502,7 +3502,7 @@ FLR_RESULT CLIENT_pkgBosonlookupFPATempDegKx10(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBosonWriteLensNvFfcToFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3524,7 +3524,7 @@ FLR_RESULT CLIENT_pkgBosonWriteLensNvFfcToFlash() {
 FLR_RESULT CLIENT_pkgBosonWriteLensGainToFlash() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3546,7 +3546,7 @@ FLR_RESULT CLIENT_pkgBosonWriteLensGainToFlash() {
 FLR_RESULT CLIENT_pkgBosonSetLensNumber(const uint32_t lensNumber) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3578,7 +3578,7 @@ FLR_RESULT CLIENT_pkgBosonSetLensNumber(const uint32_t lensNumber) {
 FLR_RESULT CLIENT_pkgBosonGetLensNumber(uint32_t *lensNumber) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3611,7 +3611,7 @@ FLR_RESULT CLIENT_pkgBosonGetLensNumber(uint32_t *lensNumber) {
 FLR_RESULT CLIENT_pkgBosonSetTableNumber(const uint32_t tableNumber) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3643,7 +3643,7 @@ FLR_RESULT CLIENT_pkgBosonSetTableNumber(const uint32_t tableNumber) {
 FLR_RESULT CLIENT_pkgBosonGetTableNumber(uint32_t *tableNumber) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3676,7 +3676,7 @@ FLR_RESULT CLIENT_pkgBosonGetTableNumber(uint32_t *tableNumber) {
 FLR_RESULT CLIENT_pkgBosonGetSensorPN(FLR_BOSON_SENSOR_PARTNUMBER_T *sensorPN) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 32;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3709,7 +3709,7 @@ FLR_RESULT CLIENT_pkgBosonGetSensorPN(FLR_BOSON_SENSOR_PARTNUMBER_T *sensorPN) {
 FLR_RESULT CLIENT_pkgBosonSetGainSwitchParams(const FLR_BOSON_GAIN_SWITCH_PARAMS_T parm_struct) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 16;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3741,7 +3741,7 @@ FLR_RESULT CLIENT_pkgBosonSetGainSwitchParams(const FLR_BOSON_GAIN_SWITCH_PARAMS
 FLR_RESULT CLIENT_pkgBosonGetGainSwitchParams(FLR_BOSON_GAIN_SWITCH_PARAMS_T *parm_struct) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 16;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3774,7 +3774,7 @@ FLR_RESULT CLIENT_pkgBosonGetGainSwitchParams(FLR_BOSON_GAIN_SWITCH_PARAMS_T *pa
 FLR_RESULT CLIENT_pkgBosonGetSwitchToHighGainFlag(uint8_t *switchToHighGainFlag) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3807,7 +3807,7 @@ FLR_RESULT CLIENT_pkgBosonGetSwitchToHighGainFlag(uint8_t *switchToHighGainFlag)
 FLR_RESULT CLIENT_pkgBosonGetSwitchToLowGainFlag(uint8_t *switchToLowGainFlag) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3840,7 +3840,7 @@ FLR_RESULT CLIENT_pkgBosonGetSwitchToLowGainFlag(uint8_t *switchToLowGainFlag) {
 FLR_RESULT CLIENT_pkgBosonGetCLowToHighPercent(uint32_t *cLowToHighPercent) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3873,7 +3873,7 @@ FLR_RESULT CLIENT_pkgBosonGetCLowToHighPercent(uint32_t *cLowToHighPercent) {
 FLR_RESULT CLIENT_pkgBosonGetMaxNUCTables(uint32_t *maxNUCTables) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3906,7 +3906,7 @@ FLR_RESULT CLIENT_pkgBosonGetMaxNUCTables(uint32_t *maxNUCTables) {
 FLR_RESULT CLIENT_pkgBosonGetMaxLensTables(uint32_t *maxLensTables) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3939,7 +3939,7 @@ FLR_RESULT CLIENT_pkgBosonGetMaxLensTables(uint32_t *maxLensTables) {
 FLR_RESULT CLIENT_pkgBosonGetFfcWaitCloseFrames(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -3972,7 +3972,7 @@ FLR_RESULT CLIENT_pkgBosonGetFfcWaitCloseFrames(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBosonSetFfcWaitCloseFrames(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4004,7 +4004,7 @@ FLR_RESULT CLIENT_pkgBosonSetFfcWaitCloseFrames(const uint16_t data) {
 FLR_RESULT CLIENT_pkgBosonCheckForTableSwitch() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4026,7 +4026,7 @@ FLR_RESULT CLIENT_pkgBosonCheckForTableSwitch() {
 FLR_RESULT CLIENT_pkgBosonGetDesiredTableNumber(uint32_t *desiredTableNumber) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4059,7 +4059,7 @@ FLR_RESULT CLIENT_pkgBosonGetDesiredTableNumber(uint32_t *desiredTableNumber) {
 FLR_RESULT CLIENT_pkgBosonGetFfcStatus(FLR_BOSON_FFCSTATUS_E *ffcStatus) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4092,7 +4092,7 @@ FLR_RESULT CLIENT_pkgBosonGetFfcStatus(FLR_BOSON_FFCSTATUS_E *ffcStatus) {
 FLR_RESULT CLIENT_pkgBosonGetFfcDesired(uint32_t *ffcDesired) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4125,7 +4125,7 @@ FLR_RESULT CLIENT_pkgBosonGetFfcDesired(uint32_t *ffcDesired) {
 FLR_RESULT CLIENT_pkgBosonGetSwRevInHeader(uint32_t *major, uint32_t *minor, uint32_t *patch) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 12;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4180,7 +4180,7 @@ FLR_RESULT CLIENT_pkgBosonGetSwRevInHeader(uint32_t *major, uint32_t *minor, uin
 FLR_RESULT CLIENT_pkgBosonGetLastFFCFrameCount(uint32_t *frameCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4213,7 +4213,7 @@ FLR_RESULT CLIENT_pkgBosonGetLastFFCFrameCount(uint32_t *frameCount) {
 FLR_RESULT CLIENT_pkgBosonGetLastFFCTempDegKx10(uint16_t *temp) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4246,7 +4246,7 @@ FLR_RESULT CLIENT_pkgBosonGetLastFFCTempDegKx10(uint16_t *temp) {
 FLR_RESULT CLIENT_pkgBosonGetTableSwitchDesired(uint16_t *tableSwitchDesired) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4279,7 +4279,7 @@ FLR_RESULT CLIENT_pkgBosonGetTableSwitchDesired(uint16_t *tableSwitchDesired) {
 FLR_RESULT CLIENT_pkgBosonGetOverTempThreshold(float *temperatureInC) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4312,7 +4312,7 @@ FLR_RESULT CLIENT_pkgBosonGetOverTempThreshold(float *temperatureInC) {
 FLR_RESULT CLIENT_pkgBosonGetLowPowerMode(uint16_t *lowPowerMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4345,7 +4345,7 @@ FLR_RESULT CLIENT_pkgBosonGetLowPowerMode(uint16_t *lowPowerMode) {
 FLR_RESULT CLIENT_pkgBosonGetOverTempEventOccurred(uint16_t *overTempEventOccurred) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4378,7 +4378,7 @@ FLR_RESULT CLIENT_pkgBosonGetOverTempEventOccurred(uint16_t *overTempEventOccurr
 FLR_RESULT CLIENT_pkgBosonSetPermitThermalShutdownOverride(const FLR_ENABLE_E permitThermalShutdownOverride) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4410,7 +4410,7 @@ FLR_RESULT CLIENT_pkgBosonSetPermitThermalShutdownOverride(const FLR_ENABLE_E pe
 FLR_RESULT CLIENT_pkgBosonGetPermitThermalShutdownOverride(FLR_ENABLE_E *permitThermalShutdownOverride) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4443,7 +4443,7 @@ FLR_RESULT CLIENT_pkgBosonGetPermitThermalShutdownOverride(FLR_ENABLE_E *permitT
 FLR_RESULT CLIENT_pkgBosonGetMyriadTemp(float *myriadTemp) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4476,7 +4476,7 @@ FLR_RESULT CLIENT_pkgBosonGetMyriadTemp(float *myriadTemp) {
 FLR_RESULT CLIENT_pkgBosonGetNvFFCNucTableNumberLens0(int32_t *nvFFCNucTableNumberLens0) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4509,7 +4509,7 @@ FLR_RESULT CLIENT_pkgBosonGetNvFFCNucTableNumberLens0(int32_t *nvFFCNucTableNumb
 FLR_RESULT CLIENT_pkgBosonGetNvFFCNucTableNumberLens1(int32_t *nvFFCNucTableNumberLens1) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4542,7 +4542,7 @@ FLR_RESULT CLIENT_pkgBosonGetNvFFCNucTableNumberLens1(int32_t *nvFFCNucTableNumb
 FLR_RESULT CLIENT_pkgBosonGetNvFFCFPATempDegKx10Lens0(uint16_t *nvFFCFPATempDegKx10Lens0) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4575,7 +4575,7 @@ FLR_RESULT CLIENT_pkgBosonGetNvFFCFPATempDegKx10Lens0(uint16_t *nvFFCFPATempDegK
 FLR_RESULT CLIENT_pkgBosonGetNvFFCFPATempDegKx10Lens1(uint16_t *nvFFCFPATempDegKx10Lens1) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4608,7 +4608,7 @@ FLR_RESULT CLIENT_pkgBosonGetNvFFCFPATempDegKx10Lens1(uint16_t *nvFFCFPATempDegK
 FLR_RESULT CLIENT_pkgBosonSetFFCWarnTimeInSecx10(const uint16_t ffcWarnTime) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4640,7 +4640,7 @@ FLR_RESULT CLIENT_pkgBosonSetFFCWarnTimeInSecx10(const uint16_t ffcWarnTime) {
 FLR_RESULT CLIENT_pkgBosonGetFFCWarnTimeInSecx10(uint16_t *ffcWarnTime) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4673,7 +4673,7 @@ FLR_RESULT CLIENT_pkgBosonGetFFCWarnTimeInSecx10(uint16_t *ffcWarnTime) {
 FLR_RESULT CLIENT_pkgBosonGetOverTempEventCounter(uint32_t *overTempEventCounter) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4706,7 +4706,7 @@ FLR_RESULT CLIENT_pkgBosonGetOverTempEventCounter(uint32_t *overTempEventCounter
 FLR_RESULT CLIENT_pkgBosonSetOverTempTimerInSec(const uint16_t overTempTimerInSec) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4738,7 +4738,7 @@ FLR_RESULT CLIENT_pkgBosonSetOverTempTimerInSec(const uint16_t overTempTimerInSe
 FLR_RESULT CLIENT_pkgBosonGetOverTempTimerInSec(uint16_t *overTempTimerInSec) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4771,7 +4771,7 @@ FLR_RESULT CLIENT_pkgBosonGetOverTempTimerInSec(uint16_t *overTempTimerInSec) {
 FLR_RESULT CLIENT_pkgBosonUnloadCurrentLensCorrections() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4793,7 +4793,7 @@ FLR_RESULT CLIENT_pkgBosonUnloadCurrentLensCorrections() {
 FLR_RESULT CLIENT_pkgBosonSetTimeForQuickFFCsInSecs(const uint32_t timeForQuickFFCsInSecs) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4825,7 +4825,7 @@ FLR_RESULT CLIENT_pkgBosonSetTimeForQuickFFCsInSecs(const uint32_t timeForQuickF
 FLR_RESULT CLIENT_pkgBosonGetTimeForQuickFFCsInSecs(uint32_t *timeForQuickFFCsInSecs) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4858,7 +4858,7 @@ FLR_RESULT CLIENT_pkgBosonGetTimeForQuickFFCsInSecs(uint32_t *timeForQuickFFCsIn
 FLR_RESULT CLIENT_pkgBosonReloadCurrentLensCorrections() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4880,7 +4880,7 @@ FLR_RESULT CLIENT_pkgBosonReloadCurrentLensCorrections() {
 FLR_RESULT CLIENT_pkgBosonGetBootTimestamps(float *FirstLight, float *StartInit, float *BosonExecDone, float *Timestamp4) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 16;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4946,7 +4946,7 @@ FLR_RESULT CLIENT_pkgBosonGetBootTimestamps(float *FirstLight, float *StartInit,
 FLR_RESULT CLIENT_pkgBosonSet2ptResponsivityHighLimit(const float responsivityHighLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -4978,7 +4978,7 @@ FLR_RESULT CLIENT_pkgBosonSet2ptResponsivityHighLimit(const float responsivityHi
 FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityHighLimit(float *responsivityHighLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5011,7 +5011,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityHighLimit(float *responsivityHighLim
 FLR_RESULT CLIENT_pkgBosonSet2ptResponsivityLowLimit(const float responsivityLowLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5043,7 +5043,7 @@ FLR_RESULT CLIENT_pkgBosonSet2ptResponsivityLowLimit(const float responsivityLow
 FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityLowLimit(float *responsivityLowLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5076,7 +5076,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityLowLimit(float *responsivityLowLimit
 FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityHighLimitErrorCount(uint32_t *responsivityHighLimitErrorCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5109,7 +5109,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityHighLimitErrorCount(uint32_t *respon
 FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityLowLimitErrorCount(uint32_t *responsivityLowLimitErrorCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5142,7 +5142,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptResponsivityLowLimitErrorCount(uint32_t *respons
 FLR_RESULT CLIENT_pkgBosonGet2ptPixelHighLimit(uint32_t *pixelHighLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5175,7 +5175,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptPixelHighLimit(uint32_t *pixelHighLimit) {
 FLR_RESULT CLIENT_pkgBosonSet2ptPixelHighLimit(const uint32_t pixelHighLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5207,7 +5207,7 @@ FLR_RESULT CLIENT_pkgBosonSet2ptPixelHighLimit(const uint32_t pixelHighLimit) {
 FLR_RESULT CLIENT_pkgBosonGet2ptPixelLowLimit(uint32_t *pixelLowLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5240,7 +5240,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptPixelLowLimit(uint32_t *pixelLowLimit) {
 FLR_RESULT CLIENT_pkgBosonSet2ptPixelLowLimit(const uint32_t pixelLowLimit) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5272,7 +5272,7 @@ FLR_RESULT CLIENT_pkgBosonSet2ptPixelLowLimit(const uint32_t pixelLowLimit) {
 FLR_RESULT CLIENT_pkgBosonGet2ptPixelHighLimitErrorCount(uint32_t *pixelHighLimitErrorCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5305,7 +5305,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptPixelHighLimitErrorCount(uint32_t *pixelHighLimi
 FLR_RESULT CLIENT_pkgBosonGet2ptPixelLowLimitErrorCount(uint32_t *pixelLowLimitErrorCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5338,7 +5338,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptPixelLowLimitErrorCount(uint32_t *pixelLowLimitE
 FLR_RESULT CLIENT_pkgBosonGet2ptTotalBadPixelErrorCount(uint32_t *totalBadPixelErrorCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5371,7 +5371,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptTotalBadPixelErrorCount(uint32_t *totalBadPixelE
 FLR_RESULT CLIENT_pkgBosonGet2ptNucStatusState(uint32_t *statusState, uint32_t *statusStringLength) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5415,7 +5415,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptNucStatusState(uint32_t *statusState, uint32_t *
 FLR_RESULT CLIENT_pkgBosonSet2ptNucStatusState(const uint32_t statusState) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5447,7 +5447,7 @@ FLR_RESULT CLIENT_pkgBosonSet2ptNucStatusState(const uint32_t statusState) {
 FLR_RESULT CLIENT_pkgBosonReset2ptNucStatusState() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5469,7 +5469,7 @@ FLR_RESULT CLIENT_pkgBosonReset2ptNucStatusState() {
 FLR_RESULT CLIENT_pkgBosonGet2ptNucStatusStateString(const uint32_t statusState, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 6;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5520,7 +5520,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptNucStatusStateString(const uint32_t statusState,
 FLR_RESULT CLIENT_pkgBosonGet2ptNucResultCode(uint32_t *resultCode, uint32_t *resultStringLength) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5564,7 +5564,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptNucResultCode(uint32_t *resultCode, uint32_t *re
 FLR_RESULT CLIENT_pkgBosonGet2ptNucResultString(const uint32_t resultNumber, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 6;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5615,7 +5615,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptNucResultString(const uint32_t resultNumber, con
 FLR_RESULT CLIENT_pkgBoson2ptNucStart() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5637,7 +5637,7 @@ FLR_RESULT CLIENT_pkgBoson2ptNucStart() {
 FLR_RESULT CLIENT_pkgBoson2ptNucNext() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5659,7 +5659,7 @@ FLR_RESULT CLIENT_pkgBoson2ptNucNext() {
 FLR_RESULT CLIENT_pkgBoson2ptNucAbort() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5681,7 +5681,7 @@ FLR_RESULT CLIENT_pkgBoson2ptNucAbort() {
 FLR_RESULT CLIENT_pkgBosonSetExtSyncMode(const FLR_BOSON_EXT_SYNC_MODE_E mode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5713,7 +5713,7 @@ FLR_RESULT CLIENT_pkgBosonSetExtSyncMode(const FLR_BOSON_EXT_SYNC_MODE_E mode) {
 FLR_RESULT CLIENT_pkgBosonGetExtSyncMode(FLR_BOSON_EXT_SYNC_MODE_E *mode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5746,7 +5746,7 @@ FLR_RESULT CLIENT_pkgBosonGetExtSyncMode(FLR_BOSON_EXT_SYNC_MODE_E *mode) {
 FLR_RESULT CLIENT_pkgBosonGetLastCommand(uint32_t *sequenceNum, uint32_t *cmdID) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5790,7 +5790,7 @@ FLR_RESULT CLIENT_pkgBosonGetLastCommand(uint32_t *sequenceNum, uint32_t *cmdID)
 FLR_RESULT CLIENT_pkgBosonSet2ptFrameStdClipValue(const float frameStdClipValue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5822,7 +5822,7 @@ FLR_RESULT CLIENT_pkgBosonSet2ptFrameStdClipValue(const float frameStdClipValue)
 FLR_RESULT CLIENT_pkgBosonGet2ptFrameStdClipValue(float *frameStdClipValue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5855,7 +5855,7 @@ FLR_RESULT CLIENT_pkgBosonGet2ptFrameStdClipValue(float *frameStdClipValue) {
 FLR_RESULT CLIENT_pkgBosonGetSensorHostCalVersion(uint32_t *version) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5888,7 +5888,7 @@ FLR_RESULT CLIENT_pkgBosonGetSensorHostCalVersion(uint32_t *version) {
 FLR_RESULT CLIENT_pkgBosonSetDesiredStartupTableNumber(const int32_t table) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5920,7 +5920,7 @@ FLR_RESULT CLIENT_pkgBosonSetDesiredStartupTableNumber(const int32_t table) {
 FLR_RESULT CLIENT_pkgBosonGetDesiredStartupTableNumber(int32_t *table) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5953,7 +5953,7 @@ FLR_RESULT CLIENT_pkgBosonGetDesiredStartupTableNumber(int32_t *table) {
 FLR_RESULT CLIENT_pkgBosonSetNvFFCMeanValueLens0(const float meanValue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -5985,7 +5985,7 @@ FLR_RESULT CLIENT_pkgBosonSetNvFFCMeanValueLens0(const float meanValue) {
 FLR_RESULT CLIENT_pkgBosonGetNvFFCMeanValueLens0(float *meanValue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6018,7 +6018,7 @@ FLR_RESULT CLIENT_pkgBosonGetNvFFCMeanValueLens0(float *meanValue) {
 FLR_RESULT CLIENT_pkgBosonSetNvFFCMeanValueLens1(const float meanValue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6050,7 +6050,7 @@ FLR_RESULT CLIENT_pkgBosonSetNvFFCMeanValueLens1(const float meanValue) {
 FLR_RESULT CLIENT_pkgBosonGetNvFFCMeanValueLens1(float *meanValue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6083,7 +6083,7 @@ FLR_RESULT CLIENT_pkgBosonGetNvFFCMeanValueLens1(float *meanValue) {
 FLR_RESULT CLIENT_pkgBosonSetInvertImage(const FLR_ENABLE_E invertImage) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6115,7 +6115,7 @@ FLR_RESULT CLIENT_pkgBosonSetInvertImage(const FLR_ENABLE_E invertImage) {
 FLR_RESULT CLIENT_pkgBosonGetInvertImage(FLR_ENABLE_E *invertImage) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6148,7 +6148,7 @@ FLR_RESULT CLIENT_pkgBosonGetInvertImage(FLR_ENABLE_E *invertImage) {
 FLR_RESULT CLIENT_pkgBosonSetRevertImage(const FLR_ENABLE_E revertImage) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6180,7 +6180,7 @@ FLR_RESULT CLIENT_pkgBosonSetRevertImage(const FLR_ENABLE_E revertImage) {
 FLR_RESULT CLIENT_pkgBosonGetRevertImage(FLR_ENABLE_E *revertImage) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6213,7 +6213,7 @@ FLR_RESULT CLIENT_pkgBosonGetRevertImage(FLR_ENABLE_E *revertImage) {
 FLR_RESULT CLIENT_pkgBosonGetTimeStamp(const FLR_BOSON_TIMESTAMPTYPE_E timeStampType, float *timeStamp) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6256,7 +6256,7 @@ FLR_RESULT CLIENT_pkgBosonGetTimeStamp(const FLR_BOSON_TIMESTAMPTYPE_E timeStamp
 FLR_RESULT CLIENT_pkgBosonGetISPFrameCount(uint32_t *ispFrameCount) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6289,7 +6289,7 @@ FLR_RESULT CLIENT_pkgBosonGetISPFrameCount(uint32_t *ispFrameCount) {
 FLR_RESULT CLIENT_pkgBosonWriteUserBadPixelsToAllTables() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6311,7 +6311,7 @@ FLR_RESULT CLIENT_pkgBosonWriteUserBadPixelsToAllTables() {
 FLR_RESULT CLIENT_pkgBosonWriteFactoryBadPixelsToAllTables() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6333,7 +6333,7 @@ FLR_RESULT CLIENT_pkgBosonWriteFactoryBadPixelsToAllTables() {
 FLR_RESULT CLIENT_pkgBosonGetTempDiodeStatus(FLR_BOSON_TEMP_DIODE_STATUS_E *status) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6366,7 +6366,7 @@ FLR_RESULT CLIENT_pkgBosonGetTempDiodeStatus(FLR_BOSON_TEMP_DIODE_STATUS_E *stat
 FLR_RESULT CLIENT_pkgBosonClearFactoryBadPixelsInDDR() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6388,7 +6388,7 @@ FLR_RESULT CLIENT_pkgBosonClearFactoryBadPixelsInDDR() {
 FLR_RESULT CLIENT_pkgBosonGetFfcWaitOpenFrames(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6421,7 +6421,7 @@ FLR_RESULT CLIENT_pkgBosonGetFfcWaitOpenFrames(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBosonSetFfcWaitOpenFrames(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6453,7 +6453,7 @@ FLR_RESULT CLIENT_pkgBosonSetFfcWaitOpenFrames(const uint16_t data) {
 FLR_RESULT CLIENT_pkgBosonGetFfcWaitOpenFlagSettleFrames(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6486,7 +6486,7 @@ FLR_RESULT CLIENT_pkgBosonGetFfcWaitOpenFlagSettleFrames(uint16_t *data) {
 FLR_RESULT CLIENT_pkgBosonSetFfcWaitOpenFlagSettleFrames(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6520,7 +6520,7 @@ FLR_RESULT CLIENT_pkgBosonSetFfcWaitOpenFlagSettleFrames(const uint16_t data) {
 FLR_RESULT CLIENT_pkgDvoSetAnalogVideoState(const FLR_ENABLE_E analogVideoState) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6552,7 +6552,7 @@ FLR_RESULT CLIENT_pkgDvoSetAnalogVideoState(const FLR_ENABLE_E analogVideoState)
 FLR_RESULT CLIENT_pkgDvoGetAnalogVideoState(FLR_ENABLE_E *analogVideoState) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6585,7 +6585,7 @@ FLR_RESULT CLIENT_pkgDvoGetAnalogVideoState(FLR_ENABLE_E *analogVideoState) {
 FLR_RESULT CLIENT_pkgDvoSetOutputFormat(const FLR_DVO_OUTPUT_FORMAT_E format) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6617,7 +6617,7 @@ FLR_RESULT CLIENT_pkgDvoSetOutputFormat(const FLR_DVO_OUTPUT_FORMAT_E format) {
 FLR_RESULT CLIENT_pkgDvoGetOutputFormat(FLR_DVO_OUTPUT_FORMAT_E *format) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6650,7 +6650,7 @@ FLR_RESULT CLIENT_pkgDvoGetOutputFormat(FLR_DVO_OUTPUT_FORMAT_E *format) {
 FLR_RESULT CLIENT_pkgDvoSetOutputYCbCrSettings(const FLR_DVO_YCBCR_SETTINGS_T settings) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 12;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6682,7 +6682,7 @@ FLR_RESULT CLIENT_pkgDvoSetOutputYCbCrSettings(const FLR_DVO_YCBCR_SETTINGS_T se
 FLR_RESULT CLIENT_pkgDvoGetOutputYCbCrSettings(FLR_DVO_YCBCR_SETTINGS_T *settings) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 12;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6715,7 +6715,7 @@ FLR_RESULT CLIENT_pkgDvoGetOutputYCbCrSettings(FLR_DVO_YCBCR_SETTINGS_T *setting
 FLR_RESULT CLIENT_pkgDvoSetOutputRGBSettings(const FLR_DVO_RGB_SETTINGS_T settings) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6747,7 +6747,7 @@ FLR_RESULT CLIENT_pkgDvoSetOutputRGBSettings(const FLR_DVO_RGB_SETTINGS_T settin
 FLR_RESULT CLIENT_pkgDvoGetOutputRGBSettings(FLR_DVO_RGB_SETTINGS_T *settings) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6780,7 +6780,7 @@ FLR_RESULT CLIENT_pkgDvoGetOutputRGBSettings(FLR_DVO_RGB_SETTINGS_T *settings) {
 FLR_RESULT CLIENT_pkgDvoApplyCustomSettings() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6802,7 +6802,7 @@ FLR_RESULT CLIENT_pkgDvoApplyCustomSettings() {
 FLR_RESULT CLIENT_pkgDvoSetDisplayMode(const FLR_DVO_DISPLAY_MODE_E displayMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6834,7 +6834,7 @@ FLR_RESULT CLIENT_pkgDvoSetDisplayMode(const FLR_DVO_DISPLAY_MODE_E displayMode)
 FLR_RESULT CLIENT_pkgDvoGetDisplayMode(FLR_DVO_DISPLAY_MODE_E *displayMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6867,7 +6867,7 @@ FLR_RESULT CLIENT_pkgDvoGetDisplayMode(FLR_DVO_DISPLAY_MODE_E *displayMode) {
 FLR_RESULT CLIENT_pkgDvoSetType(const FLR_DVO_TYPE_E tap) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6899,7 +6899,7 @@ FLR_RESULT CLIENT_pkgDvoSetType(const FLR_DVO_TYPE_E tap) {
 FLR_RESULT CLIENT_pkgDvoGetType(FLR_DVO_TYPE_E *tap) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6932,7 +6932,7 @@ FLR_RESULT CLIENT_pkgDvoGetType(FLR_DVO_TYPE_E *tap) {
 FLR_RESULT CLIENT_pkgDvoSetVideoStandard(const FLR_DVO_VIDEO_STANDARD_E videoStandard) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6964,7 +6964,7 @@ FLR_RESULT CLIENT_pkgDvoSetVideoStandard(const FLR_DVO_VIDEO_STANDARD_E videoSta
 FLR_RESULT CLIENT_pkgDvoGetVideoStandard(FLR_DVO_VIDEO_STANDARD_E *videoStandard) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -6997,7 +6997,7 @@ FLR_RESULT CLIENT_pkgDvoGetVideoStandard(FLR_DVO_VIDEO_STANDARD_E *videoStandard
 FLR_RESULT CLIENT_pkgDvoSetCheckVideoDacPresent(const FLR_ENABLE_E checkVideoDacPresent) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7029,7 +7029,7 @@ FLR_RESULT CLIENT_pkgDvoSetCheckVideoDacPresent(const FLR_ENABLE_E checkVideoDac
 FLR_RESULT CLIENT_pkgDvoGetCheckVideoDacPresent(FLR_ENABLE_E *checkVideoDacPresent) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7062,7 +7062,7 @@ FLR_RESULT CLIENT_pkgDvoGetCheckVideoDacPresent(FLR_ENABLE_E *checkVideoDacPrese
 FLR_RESULT CLIENT_pkgDvoSetCustomLcdConfig(const FLR_DVO_LCD_CONFIG_ID_E id, const FLR_DVO_LCD_CONFIG_T config) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 52;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7104,7 +7104,7 @@ FLR_RESULT CLIENT_pkgDvoSetCustomLcdConfig(const FLR_DVO_LCD_CONFIG_ID_E id, con
 FLR_RESULT CLIENT_pkgDvoGetCustomLcdConfig(const FLR_DVO_LCD_CONFIG_ID_E id, FLR_DVO_LCD_CONFIG_T *config) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 48;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7147,7 +7147,7 @@ FLR_RESULT CLIENT_pkgDvoGetCustomLcdConfig(const FLR_DVO_LCD_CONFIG_ID_E id, FLR
 FLR_RESULT CLIENT_pkgDvoSetLCDConfig(const FLR_DVO_LCD_CONFIG_ID_E id) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7179,7 +7179,7 @@ FLR_RESULT CLIENT_pkgDvoSetLCDConfig(const FLR_DVO_LCD_CONFIG_ID_E id) {
 FLR_RESULT CLIENT_pkgDvoGetLCDConfig(FLR_DVO_LCD_CONFIG_ID_E *id) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7212,7 +7212,7 @@ FLR_RESULT CLIENT_pkgDvoGetLCDConfig(FLR_DVO_LCD_CONFIG_ID_E *id) {
 FLR_RESULT CLIENT_pkgDvoGetClockInfo(uint32_t *horizontalSyncWidth, uint32_t *verticalSyncWidth, uint32_t *clocksPerRowPeriod, uint32_t *horizontalFrontPorch, uint32_t *horizontalBackPorch, uint32_t *frontTelemetryPixels, uint32_t *rearTelemetryPixels, uint32_t *videoColumns, uint32_t *validColumns, uint32_t *telemetryRows, uint32_t *videoRows, uint32_t *validRows, uint32_t *verticalFrontPorch, uint32_t *verticalBackPorch, uint32_t *rowPeriodsPerFrame, uint32_t *clocksPerFrame, float *clockRateInMHz, float *frameRateInHz, uint32_t *validOnRisingEdge, uint32_t *dataWidthInBits) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 80;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7454,7 +7454,7 @@ FLR_RESULT CLIENT_pkgDvoGetClockInfo(uint32_t *horizontalSyncWidth, uint32_t *ve
 FLR_RESULT CLIENT_pkgDvoSetAllCustomLcdConfigs(const FLR_DVO_LCD_CONFIG_T config0, const FLR_DVO_LCD_CONFIG_T config1) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 96;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7496,7 +7496,7 @@ FLR_RESULT CLIENT_pkgDvoSetAllCustomLcdConfigs(const FLR_DVO_LCD_CONFIG_T config
 FLR_RESULT CLIENT_pkgDvoGetAllCustomLcdConfigs(FLR_DVO_LCD_CONFIG_T *config0, FLR_DVO_LCD_CONFIG_T *config1) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 96;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7540,7 +7540,7 @@ FLR_RESULT CLIENT_pkgDvoGetAllCustomLcdConfigs(FLR_DVO_LCD_CONFIG_T *config0, FL
 FLR_RESULT CLIENT_pkgDvoSetOutputIr16Format(const FLR_DVO_OUTPUT_IR16_FORMAT_E format) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7572,7 +7572,7 @@ FLR_RESULT CLIENT_pkgDvoSetOutputIr16Format(const FLR_DVO_OUTPUT_IR16_FORMAT_E f
 FLR_RESULT CLIENT_pkgDvoGetOutputIr16Format(FLR_DVO_OUTPUT_IR16_FORMAT_E *format) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7607,7 +7607,7 @@ FLR_RESULT CLIENT_pkgDvoGetOutputIr16Format(FLR_DVO_OUTPUT_IR16_FORMAT_E *format
 FLR_RESULT CLIENT_pkgCaptureSingleFrame() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7629,7 +7629,7 @@ FLR_RESULT CLIENT_pkgCaptureSingleFrame() {
 FLR_RESULT CLIENT_pkgCaptureFrames(const FLR_CAPTURE_SETTINGS_T data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 10;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7661,7 +7661,7 @@ FLR_RESULT CLIENT_pkgCaptureFrames(const FLR_CAPTURE_SETTINGS_T data) {
 FLR_RESULT CLIENT_pkgCaptureSingleFrameWithSrc(const FLR_CAPTURE_SRC_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7693,7 +7693,7 @@ FLR_RESULT CLIENT_pkgCaptureSingleFrameWithSrc(const FLR_CAPTURE_SRC_E data) {
 FLR_RESULT CLIENT_pkgCaptureSingleFrameToFile() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7717,7 +7717,7 @@ FLR_RESULT CLIENT_pkgCaptureSingleFrameToFile() {
 FLR_RESULT CLIENT_pkgScnrSetEnableState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7749,7 +7749,7 @@ FLR_RESULT CLIENT_pkgScnrSetEnableState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgScnrGetEnableState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7782,7 +7782,7 @@ FLR_RESULT CLIENT_pkgScnrGetEnableState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgScnrSetThColSum(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7814,7 +7814,7 @@ FLR_RESULT CLIENT_pkgScnrSetThColSum(const uint16_t data) {
 FLR_RESULT CLIENT_pkgScnrGetThColSum(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7847,7 +7847,7 @@ FLR_RESULT CLIENT_pkgScnrGetThColSum(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrSetThPixel(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7879,7 +7879,7 @@ FLR_RESULT CLIENT_pkgScnrSetThPixel(const uint16_t data) {
 FLR_RESULT CLIENT_pkgScnrGetThPixel(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7912,7 +7912,7 @@ FLR_RESULT CLIENT_pkgScnrGetThPixel(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrSetMaxCorr(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7944,7 +7944,7 @@ FLR_RESULT CLIENT_pkgScnrSetMaxCorr(const uint16_t data) {
 FLR_RESULT CLIENT_pkgScnrGetMaxCorr(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -7977,7 +7977,7 @@ FLR_RESULT CLIENT_pkgScnrGetMaxCorr(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrGetThPixelApplied(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8010,7 +8010,7 @@ FLR_RESULT CLIENT_pkgScnrGetThPixelApplied(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrGetMaxCorrApplied(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8043,7 +8043,7 @@ FLR_RESULT CLIENT_pkgScnrGetMaxCorrApplied(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrSetThColSumSafe(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8075,7 +8075,7 @@ FLR_RESULT CLIENT_pkgScnrSetThColSumSafe(const uint16_t data) {
 FLR_RESULT CLIENT_pkgScnrGetThColSumSafe(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8108,7 +8108,7 @@ FLR_RESULT CLIENT_pkgScnrGetThColSumSafe(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrSetThPixelSafe(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8140,7 +8140,7 @@ FLR_RESULT CLIENT_pkgScnrSetThPixelSafe(const uint16_t data) {
 FLR_RESULT CLIENT_pkgScnrGetThPixelSafe(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8173,7 +8173,7 @@ FLR_RESULT CLIENT_pkgScnrGetThPixelSafe(uint16_t *data) {
 FLR_RESULT CLIENT_pkgScnrSetMaxCorrSafe(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8205,7 +8205,7 @@ FLR_RESULT CLIENT_pkgScnrSetMaxCorrSafe(const uint16_t data) {
 FLR_RESULT CLIENT_pkgScnrGetMaxCorrSafe(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8240,7 +8240,7 @@ FLR_RESULT CLIENT_pkgScnrGetMaxCorrSafe(uint16_t *data) {
 FLR_RESULT CLIENT_pkgAgcSetPercentPerBin(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8272,7 +8272,7 @@ FLR_RESULT CLIENT_pkgAgcSetPercentPerBin(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetPercentPerBin(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8305,7 +8305,7 @@ FLR_RESULT CLIENT_pkgAgcGetPercentPerBin(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetLinearPercent(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8337,7 +8337,7 @@ FLR_RESULT CLIENT_pkgAgcSetLinearPercent(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetLinearPercent(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8370,7 +8370,7 @@ FLR_RESULT CLIENT_pkgAgcGetLinearPercent(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetOutlierCut(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8402,7 +8402,7 @@ FLR_RESULT CLIENT_pkgAgcSetOutlierCut(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetOutlierCut(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8435,7 +8435,7 @@ FLR_RESULT CLIENT_pkgAgcGetOutlierCut(float *data) {
 FLR_RESULT CLIENT_pkgAgcGetDrOut(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8468,7 +8468,7 @@ FLR_RESULT CLIENT_pkgAgcGetDrOut(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetMaxGain(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8500,7 +8500,7 @@ FLR_RESULT CLIENT_pkgAgcSetMaxGain(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetMaxGain(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8533,7 +8533,7 @@ FLR_RESULT CLIENT_pkgAgcGetMaxGain(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetdf(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8565,7 +8565,7 @@ FLR_RESULT CLIENT_pkgAgcSetdf(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetdf(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8598,7 +8598,7 @@ FLR_RESULT CLIENT_pkgAgcGetdf(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetGamma(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8630,7 +8630,7 @@ FLR_RESULT CLIENT_pkgAgcSetGamma(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetGamma(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8663,7 +8663,7 @@ FLR_RESULT CLIENT_pkgAgcGetGamma(float *data) {
 FLR_RESULT CLIENT_pkgAgcGetFirstBin(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8696,7 +8696,7 @@ FLR_RESULT CLIENT_pkgAgcGetFirstBin(uint32_t *data) {
 FLR_RESULT CLIENT_pkgAgcGetLastBin(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8729,7 +8729,7 @@ FLR_RESULT CLIENT_pkgAgcGetLastBin(uint32_t *data) {
 FLR_RESULT CLIENT_pkgAgcSetDetailHeadroom(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8761,7 +8761,7 @@ FLR_RESULT CLIENT_pkgAgcSetDetailHeadroom(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetDetailHeadroom(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8794,7 +8794,7 @@ FLR_RESULT CLIENT_pkgAgcGetDetailHeadroom(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetd2br(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8826,7 +8826,7 @@ FLR_RESULT CLIENT_pkgAgcSetd2br(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetd2br(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8859,7 +8859,7 @@ FLR_RESULT CLIENT_pkgAgcGetd2br(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetSigmaR(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8891,7 +8891,7 @@ FLR_RESULT CLIENT_pkgAgcSetSigmaR(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetSigmaR(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8924,7 +8924,7 @@ FLR_RESULT CLIENT_pkgAgcGetSigmaR(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetUseEntropy(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8956,7 +8956,7 @@ FLR_RESULT CLIENT_pkgAgcSetUseEntropy(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgAgcGetUseEntropy(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -8989,7 +8989,7 @@ FLR_RESULT CLIENT_pkgAgcGetUseEntropy(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgAgcSetROI(const FLR_ROI_T roi) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9021,7 +9021,7 @@ FLR_RESULT CLIENT_pkgAgcSetROI(const FLR_ROI_T roi) {
 FLR_RESULT CLIENT_pkgAgcGetROI(FLR_ROI_T *roi) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9054,7 +9054,7 @@ FLR_RESULT CLIENT_pkgAgcGetROI(FLR_ROI_T *roi) {
 FLR_RESULT CLIENT_pkgAgcGetMaxGainApplied(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9087,7 +9087,7 @@ FLR_RESULT CLIENT_pkgAgcGetMaxGainApplied(float *data) {
 FLR_RESULT CLIENT_pkgAgcGetSigmaRApplied(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9120,7 +9120,7 @@ FLR_RESULT CLIENT_pkgAgcGetSigmaRApplied(float *data) {
 FLR_RESULT CLIENT_pkgAgcSetOutlierCutBalance(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9152,7 +9152,7 @@ FLR_RESULT CLIENT_pkgAgcSetOutlierCutBalance(const float data) {
 FLR_RESULT CLIENT_pkgAgcGetOutlierCutBalance(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9185,7 +9185,7 @@ FLR_RESULT CLIENT_pkgAgcGetOutlierCutBalance(float *data) {
 FLR_RESULT CLIENT_pkgAgcGetOutlierCutApplied(float *percentHigh, float *percentLow) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9229,7 +9229,7 @@ FLR_RESULT CLIENT_pkgAgcGetOutlierCutApplied(float *percentHigh, float *percentL
 FLR_RESULT CLIENT_pkgAgcGetTfThresholds(uint16_t *tf_thresholdMin, uint16_t *tf_thresholdMax) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9273,7 +9273,7 @@ FLR_RESULT CLIENT_pkgAgcGetTfThresholds(uint16_t *tf_thresholdMin, uint16_t *tf_
 FLR_RESULT CLIENT_pkgAgcSetTfThresholds(const uint16_t tf_thresholdMin, const uint16_t tf_thresholdMax) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9315,7 +9315,7 @@ FLR_RESULT CLIENT_pkgAgcSetTfThresholds(const uint16_t tf_thresholdMin, const ui
 FLR_RESULT CLIENT_pkgAgcGetMode(FLR_AGC_MODE_E *mode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9348,7 +9348,7 @@ FLR_RESULT CLIENT_pkgAgcGetMode(FLR_AGC_MODE_E *mode) {
 FLR_RESULT CLIENT_pkgAgcSetMode(const FLR_AGC_MODE_E mode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9382,7 +9382,7 @@ FLR_RESULT CLIENT_pkgAgcSetMode(const FLR_AGC_MODE_E mode) {
 FLR_RESULT CLIENT_pkgTfSetEnableState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9414,7 +9414,7 @@ FLR_RESULT CLIENT_pkgTfSetEnableState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgTfGetEnableState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9447,7 +9447,7 @@ FLR_RESULT CLIENT_pkgTfGetEnableState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgTfSetDelta_nf(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9479,7 +9479,7 @@ FLR_RESULT CLIENT_pkgTfSetDelta_nf(const uint16_t data) {
 FLR_RESULT CLIENT_pkgTfGetDelta_nf(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9512,7 +9512,7 @@ FLR_RESULT CLIENT_pkgTfGetDelta_nf(uint16_t *data) {
 FLR_RESULT CLIENT_pkgTfSetTHDeltaMotion(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9544,7 +9544,7 @@ FLR_RESULT CLIENT_pkgTfSetTHDeltaMotion(const uint16_t data) {
 FLR_RESULT CLIENT_pkgTfGetTHDeltaMotion(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9577,7 +9577,7 @@ FLR_RESULT CLIENT_pkgTfGetTHDeltaMotion(uint16_t *data) {
 FLR_RESULT CLIENT_pkgTfSetWLut(const FLR_TF_WLUT_T data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 32;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9609,7 +9609,7 @@ FLR_RESULT CLIENT_pkgTfSetWLut(const FLR_TF_WLUT_T data) {
 FLR_RESULT CLIENT_pkgTfGetWLut(FLR_TF_WLUT_T *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 32;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9642,7 +9642,7 @@ FLR_RESULT CLIENT_pkgTfGetWLut(FLR_TF_WLUT_T *data) {
 FLR_RESULT CLIENT_pkgTfGetMotionCount(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9675,7 +9675,7 @@ FLR_RESULT CLIENT_pkgTfGetMotionCount(uint32_t *data) {
 FLR_RESULT CLIENT_pkgTfSetMotionThreshold(const uint32_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9707,7 +9707,7 @@ FLR_RESULT CLIENT_pkgTfSetMotionThreshold(const uint32_t data) {
 FLR_RESULT CLIENT_pkgTfGetMotionThreshold(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9740,7 +9740,7 @@ FLR_RESULT CLIENT_pkgTfGetMotionThreshold(uint32_t *data) {
 FLR_RESULT CLIENT_pkgTfGetDelta_nfApplied(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9773,7 +9773,7 @@ FLR_RESULT CLIENT_pkgTfGetDelta_nfApplied(uint16_t *data) {
 FLR_RESULT CLIENT_pkgTfGetTHDeltaMotionApplied(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9806,7 +9806,7 @@ FLR_RESULT CLIENT_pkgTfGetTHDeltaMotionApplied(uint16_t *data) {
 FLR_RESULT CLIENT_pkgTfSetTempSignalCompFactorLut(const FLR_TF_TEMP_SIGNAL_COMP_FACTOR_LUT_T data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 34;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9838,7 +9838,7 @@ FLR_RESULT CLIENT_pkgTfSetTempSignalCompFactorLut(const FLR_TF_TEMP_SIGNAL_COMP_
 FLR_RESULT CLIENT_pkgTfGetTempSignalCompFactorLut(FLR_TF_TEMP_SIGNAL_COMP_FACTOR_LUT_T *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 34;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9871,7 +9871,7 @@ FLR_RESULT CLIENT_pkgTfGetTempSignalCompFactorLut(FLR_TF_TEMP_SIGNAL_COMP_FACTOR
 FLR_RESULT CLIENT_pkgTfGetRnf(uint16_t *rnf) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9906,7 +9906,7 @@ FLR_RESULT CLIENT_pkgTfGetRnf(uint16_t *rnf) {
 FLR_RESULT CLIENT_pkgMemReadCapture(const uint8_t bufferNum, const uint32_t offset, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 7;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -9967,7 +9967,7 @@ FLR_RESULT CLIENT_pkgMemReadCapture(const uint8_t bufferNum, const uint32_t offs
 FLR_RESULT CLIENT_pkgMemGetCaptureSize(uint32_t *bytes, uint16_t *rows, uint16_t *columns) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10022,7 +10022,7 @@ FLR_RESULT CLIENT_pkgMemGetCaptureSize(uint32_t *bytes, uint16_t *rows, uint16_t
 FLR_RESULT CLIENT_pkgMemWriteFlash(const FLR_MEM_LOCATION_E location, const uint8_t index, const uint32_t offset, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = (uint32_t) sizeInBytes + 11;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10093,7 +10093,7 @@ FLR_RESULT CLIENT_pkgMemWriteFlash(const FLR_MEM_LOCATION_E location, const uint
 FLR_RESULT CLIENT_pkgMemReadFlash(const FLR_MEM_LOCATION_E location, const uint8_t index, const uint32_t offset, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 11;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10164,7 +10164,7 @@ FLR_RESULT CLIENT_pkgMemReadFlash(const FLR_MEM_LOCATION_E location, const uint8
 FLR_RESULT CLIENT_pkgMemGetFlashSize(const FLR_MEM_LOCATION_E location, uint32_t *bytes) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10207,7 +10207,7 @@ FLR_RESULT CLIENT_pkgMemGetFlashSize(const FLR_MEM_LOCATION_E location, uint32_t
 FLR_RESULT CLIENT_pkgMemEraseFlash(const FLR_MEM_LOCATION_E location, const uint8_t index) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 5;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10249,7 +10249,7 @@ FLR_RESULT CLIENT_pkgMemEraseFlash(const FLR_MEM_LOCATION_E location, const uint
 FLR_RESULT CLIENT_pkgMemEraseFlashPartial(const FLR_MEM_LOCATION_E location, const uint8_t index, const uint32_t offset, const uint32_t length) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 13;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10311,7 +10311,7 @@ FLR_RESULT CLIENT_pkgMemEraseFlashPartial(const FLR_MEM_LOCATION_E location, con
 FLR_RESULT CLIENT_pkgMemReadCurrentGain(const uint32_t offset, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 6;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10362,7 +10362,7 @@ FLR_RESULT CLIENT_pkgMemReadCurrentGain(const uint32_t offset, const uint16_t si
 FLR_RESULT CLIENT_pkgMemGetGainSize(uint32_t *bytes, uint16_t *rows, uint16_t *columns) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10417,7 +10417,7 @@ FLR_RESULT CLIENT_pkgMemGetGainSize(uint32_t *bytes, uint16_t *rows, uint16_t *c
 FLR_RESULT CLIENT_pkgMemGetCaptureSizeSrc(const FLR_CAPTURE_SRC_E src, uint32_t *bytes, uint16_t *rows, uint16_t *columns) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10482,7 +10482,7 @@ FLR_RESULT CLIENT_pkgMemGetCaptureSizeSrc(const FLR_CAPTURE_SRC_E src, uint32_t 
 FLR_RESULT CLIENT_pkgMemReadCaptureSrc(const FLR_CAPTURE_SRC_E src, const uint8_t bufferNum, const uint32_t offset, const uint16_t sizeInBytes, uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 11;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10555,7 +10555,7 @@ FLR_RESULT CLIENT_pkgMemReadCaptureSrc(const FLR_CAPTURE_SRC_E src, const uint8_
 FLR_RESULT CLIENT_pkgColorlutSetControl(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10587,7 +10587,7 @@ FLR_RESULT CLIENT_pkgColorlutSetControl(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgColorlutGetControl(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10620,7 +10620,7 @@ FLR_RESULT CLIENT_pkgColorlutGetControl(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgColorlutSetId(const FLR_COLORLUT_ID_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10652,7 +10652,7 @@ FLR_RESULT CLIENT_pkgColorlutSetId(const FLR_COLORLUT_ID_E data) {
 FLR_RESULT CLIENT_pkgColorlutGetId(FLR_COLORLUT_ID_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10685,7 +10685,7 @@ FLR_RESULT CLIENT_pkgColorlutGetId(FLR_COLORLUT_ID_E *data) {
 FLR_RESULT CLIENT_pkgColorlutSetOutlineColor(const uint8_t red, const uint8_t green, const uint8_t blue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 3;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10737,7 +10737,7 @@ FLR_RESULT CLIENT_pkgColorlutSetOutlineColor(const uint8_t red, const uint8_t gr
 FLR_RESULT CLIENT_pkgColorlutGetOutlineColor(uint8_t *red, uint8_t *green, uint8_t *blue) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 3;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10792,7 +10792,7 @@ FLR_RESULT CLIENT_pkgColorlutGetOutlineColor(uint8_t *red, uint8_t *green, uint8
 FLR_RESULT CLIENT_pkgColorlutSetOutlineDisplay(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10824,7 +10824,7 @@ FLR_RESULT CLIENT_pkgColorlutSetOutlineDisplay(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgColorlutGetOutlineDisplay(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10859,7 +10859,7 @@ FLR_RESULT CLIENT_pkgColorlutGetOutlineDisplay(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgSpnrSetEnableState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10891,7 +10891,7 @@ FLR_RESULT CLIENT_pkgSpnrSetEnableState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgSpnrGetEnableState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10924,7 +10924,7 @@ FLR_RESULT CLIENT_pkgSpnrGetEnableState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgSpnrGetState(FLR_SPNR_STATE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10957,7 +10957,7 @@ FLR_RESULT CLIENT_pkgSpnrGetState(FLR_SPNR_STATE_E *data) {
 FLR_RESULT CLIENT_pkgSpnrSetFrameDelay(const uint32_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -10989,7 +10989,7 @@ FLR_RESULT CLIENT_pkgSpnrSetFrameDelay(const uint32_t data) {
 FLR_RESULT CLIENT_pkgSpnrGetFrameDelay(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11022,7 +11022,7 @@ FLR_RESULT CLIENT_pkgSpnrGetFrameDelay(uint32_t *data) {
 FLR_RESULT CLIENT_pkgSpnrGetSFApplied(float *sf) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11055,7 +11055,7 @@ FLR_RESULT CLIENT_pkgSpnrGetSFApplied(float *sf) {
 FLR_RESULT CLIENT_pkgSpnrSetPSDKernel(const FLR_SPNR_PSD_KERNEL_T data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 256;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11087,7 +11087,7 @@ FLR_RESULT CLIENT_pkgSpnrSetPSDKernel(const FLR_SPNR_PSD_KERNEL_T data) {
 FLR_RESULT CLIENT_pkgSpnrGetPSDKernel(FLR_SPNR_PSD_KERNEL_T *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 256;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11120,7 +11120,7 @@ FLR_RESULT CLIENT_pkgSpnrGetPSDKernel(FLR_SPNR_PSD_KERNEL_T *data) {
 FLR_RESULT CLIENT_pkgSpnrSetSFMin(const float sfmin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11152,7 +11152,7 @@ FLR_RESULT CLIENT_pkgSpnrSetSFMin(const float sfmin) {
 FLR_RESULT CLIENT_pkgSpnrGetSFMin(float *sfmin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11185,7 +11185,7 @@ FLR_RESULT CLIENT_pkgSpnrGetSFMin(float *sfmin) {
 FLR_RESULT CLIENT_pkgSpnrSetSFMax(const float sfmax) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11217,7 +11217,7 @@ FLR_RESULT CLIENT_pkgSpnrSetSFMax(const float sfmax) {
 FLR_RESULT CLIENT_pkgSpnrGetSFMax(float *sfmax) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11250,7 +11250,7 @@ FLR_RESULT CLIENT_pkgSpnrGetSFMax(float *sfmax) {
 FLR_RESULT CLIENT_pkgSpnrSetDFMin(const float dfmin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11282,7 +11282,7 @@ FLR_RESULT CLIENT_pkgSpnrSetDFMin(const float dfmin) {
 FLR_RESULT CLIENT_pkgSpnrGetDFMin(float *dfmin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11315,7 +11315,7 @@ FLR_RESULT CLIENT_pkgSpnrGetDFMin(float *dfmin) {
 FLR_RESULT CLIENT_pkgSpnrSetDFMax(const float dfmax) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11347,7 +11347,7 @@ FLR_RESULT CLIENT_pkgSpnrSetDFMax(const float dfmax) {
 FLR_RESULT CLIENT_pkgSpnrGetDFMax(float *dfmax) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11380,7 +11380,7 @@ FLR_RESULT CLIENT_pkgSpnrGetDFMax(float *dfmax) {
 FLR_RESULT CLIENT_pkgSpnrSetNormTarget(const float normTarget) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11412,7 +11412,7 @@ FLR_RESULT CLIENT_pkgSpnrSetNormTarget(const float normTarget) {
 FLR_RESULT CLIENT_pkgSpnrGetNormTarget(float *normTarget) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11445,7 +11445,7 @@ FLR_RESULT CLIENT_pkgSpnrGetNormTarget(float *normTarget) {
 FLR_RESULT CLIENT_pkgSpnrGetNormTargetApplied(float *normTargetApplied) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11478,7 +11478,7 @@ FLR_RESULT CLIENT_pkgSpnrGetNormTargetApplied(float *normTargetApplied) {
 FLR_RESULT CLIENT_pkgSpnrSetThPix(const uint16_t th_pix) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11510,7 +11510,7 @@ FLR_RESULT CLIENT_pkgSpnrSetThPix(const uint16_t th_pix) {
 FLR_RESULT CLIENT_pkgSpnrGetThPix(uint16_t *th_pix) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11543,7 +11543,7 @@ FLR_RESULT CLIENT_pkgSpnrGetThPix(uint16_t *th_pix) {
 FLR_RESULT CLIENT_pkgSpnrSetThPixSum(const uint16_t th_pixSum) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11575,7 +11575,7 @@ FLR_RESULT CLIENT_pkgSpnrSetThPixSum(const uint16_t th_pixSum) {
 FLR_RESULT CLIENT_pkgSpnrGetThPixSum(uint16_t *th_pixSum) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11608,7 +11608,7 @@ FLR_RESULT CLIENT_pkgSpnrGetThPixSum(uint16_t *th_pixSum) {
 FLR_RESULT CLIENT_pkgSpnrSetMaxcorr(const uint16_t maxcorr) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11640,7 +11640,7 @@ FLR_RESULT CLIENT_pkgSpnrSetMaxcorr(const uint16_t maxcorr) {
 FLR_RESULT CLIENT_pkgSpnrGetMaxcorr(uint16_t *maxcorr) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11675,7 +11675,7 @@ FLR_RESULT CLIENT_pkgSpnrGetMaxcorr(uint16_t *maxcorr) {
 FLR_RESULT CLIENT_pkgScalerGetMaxZoom(uint32_t *zoom) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11708,7 +11708,7 @@ FLR_RESULT CLIENT_pkgScalerGetMaxZoom(uint32_t *zoom) {
 FLR_RESULT CLIENT_pkgScalerSetZoom(const FLR_SCALER_ZOOM_PARAMS_T zoomParams) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 12;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11740,7 +11740,7 @@ FLR_RESULT CLIENT_pkgScalerSetZoom(const FLR_SCALER_ZOOM_PARAMS_T zoomParams) {
 FLR_RESULT CLIENT_pkgScalerGetZoom(FLR_SCALER_ZOOM_PARAMS_T *zoomParams) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 12;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11773,7 +11773,7 @@ FLR_RESULT CLIENT_pkgScalerGetZoom(FLR_SCALER_ZOOM_PARAMS_T *zoomParams) {
 FLR_RESULT CLIENT_pkgScalerSetFractionalZoom(const uint32_t zoomNumerator, const uint32_t zoomDenominator, const uint32_t zoomXCenter, const uint32_t zoomYCenter, const FLR_ENABLE_E inChangeEnable, const uint32_t zoomOutXCenter, const uint32_t zoomOutYCenter, const FLR_ENABLE_E outChangeEnable) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 32;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11875,7 +11875,7 @@ FLR_RESULT CLIENT_pkgScalerSetFractionalZoom(const uint32_t zoomNumerator, const
 FLR_RESULT CLIENT_pkgScalerSetIndexZoom(const uint32_t zoomIndex, const uint32_t zoomXCenter, const uint32_t zoomYCenter, const FLR_ENABLE_E inChangeEnable, const uint32_t zoomOutXCenter, const uint32_t zoomOutYCenter, const FLR_ENABLE_E outChangeEnable) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 28;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -11969,7 +11969,7 @@ FLR_RESULT CLIENT_pkgScalerSetIndexZoom(const uint32_t zoomIndex, const uint32_t
 FLR_RESULT CLIENT_pkgSysctrlSetFreezeState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12001,7 +12001,7 @@ FLR_RESULT CLIENT_pkgSysctrlSetFreezeState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgSysctrlGetFreezeState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12034,7 +12034,7 @@ FLR_RESULT CLIENT_pkgSysctrlGetFreezeState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgSysctrlGetCameraFrameRate(uint32_t *frameRate) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12067,7 +12067,7 @@ FLR_RESULT CLIENT_pkgSysctrlGetCameraFrameRate(uint32_t *frameRate) {
 FLR_RESULT CLIENT_pkgSysctrlGetUptimeSecs(uint32_t *uptime) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12102,7 +12102,7 @@ FLR_RESULT CLIENT_pkgSysctrlGetUptimeSecs(uint32_t *uptime) {
 FLR_RESULT CLIENT_pkgTestrampSetType(const uint8_t index, const FLR_TESTRAMP_TYPE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 5;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12144,7 +12144,7 @@ FLR_RESULT CLIENT_pkgTestrampSetType(const uint8_t index, const FLR_TESTRAMP_TYP
 FLR_RESULT CLIENT_pkgTestrampGetType(const uint8_t index, FLR_TESTRAMP_TYPE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12187,7 +12187,7 @@ FLR_RESULT CLIENT_pkgTestrampGetType(const uint8_t index, FLR_TESTRAMP_TYPE_E *d
 FLR_RESULT CLIENT_pkgTestrampSetSettings(const uint8_t index, const FLR_TESTRAMP_SETTINGS_T data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 7;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12229,7 +12229,7 @@ FLR_RESULT CLIENT_pkgTestrampSetSettings(const uint8_t index, const FLR_TESTRAMP
 FLR_RESULT CLIENT_pkgTestrampGetSettings(const uint8_t index, FLR_TESTRAMP_SETTINGS_T *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 6;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12272,7 +12272,7 @@ FLR_RESULT CLIENT_pkgTestrampGetSettings(const uint8_t index, FLR_TESTRAMP_SETTI
 FLR_RESULT CLIENT_pkgTestrampSetMotionState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12304,7 +12304,7 @@ FLR_RESULT CLIENT_pkgTestrampSetMotionState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgTestrampGetMotionState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12337,7 +12337,7 @@ FLR_RESULT CLIENT_pkgTestrampGetMotionState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgTestrampSetIndex(const uint8_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12369,7 +12369,7 @@ FLR_RESULT CLIENT_pkgTestrampSetIndex(const uint8_t data) {
 FLR_RESULT CLIENT_pkgTestrampGetIndex(uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12402,7 +12402,7 @@ FLR_RESULT CLIENT_pkgTestrampGetIndex(uint8_t *data) {
 FLR_RESULT CLIENT_pkgTestrampGetMaxIndex(uint8_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12437,7 +12437,7 @@ FLR_RESULT CLIENT_pkgTestrampGetMaxIndex(uint8_t *data) {
 FLR_RESULT CLIENT_pkgSymbologySetEnable(const FLR_ENABLE_E draw_symbols) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12469,7 +12469,7 @@ FLR_RESULT CLIENT_pkgSymbologySetEnable(const FLR_ENABLE_E draw_symbols) {
 FLR_RESULT CLIENT_pkgSymbologyCreateBitmap(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 9;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12541,7 +12541,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateBitmap(const uint8_t ID, const int16_t pos_X
 FLR_RESULT CLIENT_pkgSymbologySendData(const uint8_t ID, const int16_t size, const uint8_t text[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 131;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12593,7 +12593,7 @@ FLR_RESULT CLIENT_pkgSymbologySendData(const uint8_t ID, const int16_t size, con
 FLR_RESULT CLIENT_pkgSymbologyCreateArc(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const float start_angle, const float end_angle, const uint32_t color) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 21;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12695,7 +12695,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateArc(const uint8_t ID, const int16_t pos_X, c
 FLR_RESULT CLIENT_pkgSymbologyCreateText(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const int8_t font, const int16_t size, const FLR_SYMBOLOGY_TEXT_ALIGNMENT_E alignment, const uint32_t color, const uint8_t text[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 146;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12817,7 +12817,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateText(const uint8_t ID, const int16_t pos_X, 
 FLR_RESULT CLIENT_pkgSymbologyMoveSprite(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 5;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12869,7 +12869,7 @@ FLR_RESULT CLIENT_pkgSymbologyMoveSprite(const uint8_t ID, const int16_t pos_X, 
 FLR_RESULT CLIENT_pkgSymbologyAddToGroup(const uint8_t ID, const uint8_t group_ID) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12911,7 +12911,7 @@ FLR_RESULT CLIENT_pkgSymbologyAddToGroup(const uint8_t ID, const uint8_t group_I
 FLR_RESULT CLIENT_pkgSymbologyRemoveFromGroup(const uint8_t ID, const uint8_t group_ID) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12953,7 +12953,7 @@ FLR_RESULT CLIENT_pkgSymbologyRemoveFromGroup(const uint8_t ID, const uint8_t gr
 FLR_RESULT CLIENT_pkgSymbologyUpdateAndShow(const uint8_t ID, const uint8_t visible) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -12995,7 +12995,7 @@ FLR_RESULT CLIENT_pkgSymbologyUpdateAndShow(const uint8_t ID, const uint8_t visi
 FLR_RESULT CLIENT_pkgSymbologyUpdateAndShowGroup(const uint8_t group_ID, const uint8_t visible) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13037,7 +13037,7 @@ FLR_RESULT CLIENT_pkgSymbologyUpdateAndShowGroup(const uint8_t group_ID, const u
 FLR_RESULT CLIENT_pkgSymbologyDelete(const uint8_t ID) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13069,7 +13069,7 @@ FLR_RESULT CLIENT_pkgSymbologyDelete(const uint8_t ID) {
 FLR_RESULT CLIENT_pkgSymbologyDeleteGroup(const uint8_t group_ID) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13101,7 +13101,7 @@ FLR_RESULT CLIENT_pkgSymbologyDeleteGroup(const uint8_t group_ID) {
 FLR_RESULT CLIENT_pkgSymbologyCreateFilledRectangle(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const uint32_t color) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 13;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13183,7 +13183,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateFilledRectangle(const uint8_t ID, const int1
 FLR_RESULT CLIENT_pkgSymbologyCreateOutlinedRectangle(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const uint32_t color) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 13;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13265,7 +13265,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateOutlinedRectangle(const uint8_t ID, const in
 FLR_RESULT CLIENT_pkgSymbologyCreateBitmapFromPng(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t size) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 7;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13327,7 +13327,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateBitmapFromPng(const uint8_t ID, const int16_
 FLR_RESULT CLIENT_pkgSymbologyCreateCompressedBitmap(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 9;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13399,7 +13399,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateCompressedBitmap(const uint8_t ID, const int
 FLR_RESULT CLIENT_pkgSymbologyCreateBitmapFromPngFile(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const uint8_t path[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 133;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13461,7 +13461,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateBitmapFromPngFile(const uint8_t ID, const in
 FLR_RESULT CLIENT_pkgSymbologyCreateBitmapFromFile(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const uint8_t path[], const FLR_SYMBOLOGY_IMAGE_TYPE_E imageType) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 135;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13533,7 +13533,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateBitmapFromFile(const uint8_t ID, const int16
 FLR_RESULT CLIENT_pkgSymbologyResetWritePosition(const uint8_t ID) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 1;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13565,7 +13565,7 @@ FLR_RESULT CLIENT_pkgSymbologyResetWritePosition(const uint8_t ID) {
 FLR_RESULT CLIENT_pkgSymbologyMoveByOffset(const uint8_t ID, const int16_t off_X, const int16_t off_Y) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 5;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13617,7 +13617,7 @@ FLR_RESULT CLIENT_pkgSymbologyMoveByOffset(const uint8_t ID, const int16_t off_X
 FLR_RESULT CLIENT_pkgSymbologyMoveGroupByOffset(const uint8_t ID, const int16_t off_X, const int16_t off_Y) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 5;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13669,7 +13669,7 @@ FLR_RESULT CLIENT_pkgSymbologyMoveGroupByOffset(const uint8_t ID, const int16_t 
 FLR_RESULT CLIENT_pkgSymbologyCreateFilledEllipse(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const uint32_t color) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 13;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13751,7 +13751,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateFilledEllipse(const uint8_t ID, const int16_
 FLR_RESULT CLIENT_pkgSymbologyCreateLine(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t pos_X2, const int16_t pos_Y2, const uint32_t color) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 13;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13833,7 +13833,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateLine(const uint8_t ID, const int16_t pos_X, 
 FLR_RESULT CLIENT_pkgSymbologySetZorder(const uint8_t ID, const uint8_t zorder) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13875,7 +13875,7 @@ FLR_RESULT CLIENT_pkgSymbologySetZorder(const uint8_t ID, const uint8_t zorder) 
 FLR_RESULT CLIENT_pkgSymbologySaveConfiguration() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13897,7 +13897,7 @@ FLR_RESULT CLIENT_pkgSymbologySaveConfiguration() {
 FLR_RESULT CLIENT_pkgSymbologyReloadConfiguration() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13919,7 +13919,7 @@ FLR_RESULT CLIENT_pkgSymbologyReloadConfiguration() {
 FLR_RESULT CLIENT_pkgSymbologyGetEnable(FLR_ENABLE_E *draw_symbols) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13952,7 +13952,7 @@ FLR_RESULT CLIENT_pkgSymbologyGetEnable(FLR_ENABLE_E *draw_symbols) {
 FLR_RESULT CLIENT_pkgSymbologySetClonesNumber(const uint8_t ID, const uint8_t numberOfClones) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -13994,7 +13994,7 @@ FLR_RESULT CLIENT_pkgSymbologySetClonesNumber(const uint8_t ID, const uint8_t nu
 FLR_RESULT CLIENT_pkgSymbologyMoveCloneByOffset(const uint8_t ID, const uint8_t cloneID, const int16_t pos_X, const int16_t pos_Y) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 6;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14056,7 +14056,7 @@ FLR_RESULT CLIENT_pkgSymbologyMoveCloneByOffset(const uint8_t ID, const uint8_t 
 FLR_RESULT CLIENT_pkgSymbologyMoveCloneSprite(const uint8_t ID, const uint8_t cloneID, const int16_t pos_X, const int16_t pos_Y) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 6;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14118,7 +14118,7 @@ FLR_RESULT CLIENT_pkgSymbologyMoveCloneSprite(const uint8_t ID, const uint8_t cl
 FLR_RESULT CLIENT_pkgSymbologySetTransformation(const FLR_SYMBOLOGY_TRANSFORMATION_E transformation) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14150,7 +14150,7 @@ FLR_RESULT CLIENT_pkgSymbologySetTransformation(const FLR_SYMBOLOGY_TRANSFORMATI
 FLR_RESULT CLIENT_pkgSymbologyUpdateAllVisible() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14172,7 +14172,7 @@ FLR_RESULT CLIENT_pkgSymbologyUpdateAllVisible() {
 FLR_RESULT CLIENT_pkgSymbologySetSizeAndScalingMode(const uint8_t ID, const int16_t width, const int16_t height, const FLR_SYMBOLOGY_SCALING_MODE_E scalingMode) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 7;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14234,7 +14234,7 @@ FLR_RESULT CLIENT_pkgSymbologySetSizeAndScalingMode(const uint8_t ID, const int1
 FLR_RESULT CLIENT_pkgSymbologyCreateLineHVT(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t pos_X2, const int16_t pos_Y2, const uint32_t color1, const uint32_t color2, const uint16_t dashLen, const uint16_t thickness) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 21;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14346,7 +14346,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateLineHVT(const uint8_t ID, const int16_t pos_
 FLR_RESULT CLIENT_pkgSymbologyCreateTextHVT(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const int8_t font, const int16_t size, const FLR_SYMBOLOGY_TEXT_ALIGNMENT_E alignment, const uint32_t color1, const uint32_t color2, const uint8_t dashLen, const uint8_t text[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 151;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14488,7 +14488,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateTextHVT(const uint8_t ID, const int16_t pos_
 FLR_RESULT CLIENT_pkgSymbologyCreateTextBg(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const int8_t font, const int16_t size, const FLR_SYMBOLOGY_TEXT_ALIGNMENT_E alignment, const uint32_t color, const uint32_t bgColor, const uint8_t text[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 150;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14620,7 +14620,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateTextBg(const uint8_t ID, const int16_t pos_X
 FLR_RESULT CLIENT_pkgSymbologyCreateScaledBitmapFromFile(const uint8_t ID, const int16_t pos_X, const int16_t pos_Y, const int16_t width, const int16_t height, const FLR_SYMBOLOGY_SCALING_MODE_E scalingMode, const uint8_t path[], const FLR_SYMBOLOGY_IMAGE_TYPE_E imageType) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 141;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14726,7 +14726,7 @@ FLR_RESULT CLIENT_pkgSymbologyCreateScaledBitmapFromFile(const uint8_t ID, const
 FLR_RESULT CLIENT_pkgFileopsDir(uint8_t *dirent) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 128;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -14886,7 +14886,7 @@ FLR_RESULT CLIENT_pkgFileopsDir(uint8_t *dirent) {
 FLR_RESULT CLIENT_pkgFileopsCd(const uint8_t path[], uint8_t *pwd) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 128;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 128;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15056,7 +15056,7 @@ FLR_RESULT CLIENT_pkgFileopsCd(const uint8_t path[], uint8_t *pwd) {
 FLR_RESULT CLIENT_pkgFileopsMd(const uint8_t path[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 128;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15088,7 +15088,7 @@ FLR_RESULT CLIENT_pkgFileopsMd(const uint8_t path[]) {
 FLR_RESULT CLIENT_pkgFileopsFopen(const uint8_t path[], const uint8_t mode[], uint32_t *id) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 256;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15141,7 +15141,7 @@ FLR_RESULT CLIENT_pkgFileopsFopen(const uint8_t path[], const uint8_t mode[], ui
 FLR_RESULT CLIENT_pkgFileopsFclose(const uint32_t id) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15173,7 +15173,7 @@ FLR_RESULT CLIENT_pkgFileopsFclose(const uint32_t id) {
 FLR_RESULT CLIENT_pkgFileopsFread(const uint32_t id, const uint32_t length, uint8_t *buf, uint32_t *ret) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 132;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15364,7 +15364,7 @@ FLR_RESULT CLIENT_pkgFileopsFread(const uint32_t id, const uint32_t length, uint
 FLR_RESULT CLIENT_pkgFileopsFwrite(const uint32_t id, const uint32_t length, const uint8_t buf[], uint32_t *ret) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 136;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15427,7 +15427,7 @@ FLR_RESULT CLIENT_pkgFileopsFwrite(const uint32_t id, const uint32_t length, con
 FLR_RESULT CLIENT_pkgFileopsFtell(const uint32_t id, uint32_t *offset) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15470,7 +15470,7 @@ FLR_RESULT CLIENT_pkgFileopsFtell(const uint32_t id, uint32_t *offset) {
 FLR_RESULT CLIENT_pkgFileopsFseek(const uint32_t id, const uint32_t offset, const uint32_t origin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 12;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15522,7 +15522,7 @@ FLR_RESULT CLIENT_pkgFileopsFseek(const uint32_t id, const uint32_t offset, cons
 FLR_RESULT CLIENT_pkgFileopsFtruncate(const uint32_t id, const uint32_t length) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15564,7 +15564,7 @@ FLR_RESULT CLIENT_pkgFileopsFtruncate(const uint32_t id, const uint32_t length) 
 FLR_RESULT CLIENT_pkgFileopsRmdir(const uint8_t path[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 128;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15596,7 +15596,7 @@ FLR_RESULT CLIENT_pkgFileopsRmdir(const uint8_t path[]) {
 FLR_RESULT CLIENT_pkgFileopsRm(const uint8_t path[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 128;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15628,7 +15628,7 @@ FLR_RESULT CLIENT_pkgFileopsRm(const uint8_t path[]) {
 FLR_RESULT CLIENT_pkgFileopsRename(const uint8_t oldpath[], const uint8_t newpath[]) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 256;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15670,7 +15670,7 @@ FLR_RESULT CLIENT_pkgFileopsRename(const uint8_t oldpath[], const uint8_t newpat
 FLR_RESULT CLIENT_pkgFileopsGetFileSize(const uint8_t path[], uint32_t *fileLength) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 128;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15715,7 +15715,7 @@ FLR_RESULT CLIENT_pkgFileopsGetFileSize(const uint8_t path[], uint32_t *fileLeng
 FLR_RESULT CLIENT_pkgJffs2Mount() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15737,7 +15737,7 @@ FLR_RESULT CLIENT_pkgJffs2Mount() {
 FLR_RESULT CLIENT_pkgJffs2Unmount() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15759,7 +15759,7 @@ FLR_RESULT CLIENT_pkgJffs2Unmount() {
 FLR_RESULT CLIENT_pkgJffs2GetState(FLR_JFFS2_STATE_E *state) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15794,7 +15794,7 @@ FLR_RESULT CLIENT_pkgJffs2GetState(FLR_JFFS2_STATE_E *state) {
 FLR_RESULT CLIENT_pkgSplashscreenSetDuration(const uint32_t screen_num, const uint32_t periodMs) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15836,7 +15836,7 @@ FLR_RESULT CLIENT_pkgSplashscreenSetDuration(const uint32_t screen_num, const ui
 FLR_RESULT CLIENT_pkgSplashscreenSetDataType(const uint32_t screen_num, const FLR_SPLASHSCREEN_FILETYPE_E filetype) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15878,7 +15878,7 @@ FLR_RESULT CLIENT_pkgSplashscreenSetDataType(const uint32_t screen_num, const FL
 FLR_RESULT CLIENT_pkgSplashscreenSetBackground(const uint32_t screen_num, const uint32_t backgroundColor) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15920,7 +15920,7 @@ FLR_RESULT CLIENT_pkgSplashscreenSetBackground(const uint32_t screen_num, const 
 FLR_RESULT CLIENT_pkgSplashscreenGetDuration(const uint32_t screen_num, uint32_t *periodMs) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -15963,7 +15963,7 @@ FLR_RESULT CLIENT_pkgSplashscreenGetDuration(const uint32_t screen_num, uint32_t
 FLR_RESULT CLIENT_pkgSplashscreenGetDataType(const uint32_t screen_num, FLR_SPLASHSCREEN_FILETYPE_E *filetype) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16006,7 +16006,7 @@ FLR_RESULT CLIENT_pkgSplashscreenGetDataType(const uint32_t screen_num, FLR_SPLA
 FLR_RESULT CLIENT_pkgSplashscreenGetBackground(const uint32_t screen_num, uint32_t *backgroundColor) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16051,7 +16051,7 @@ FLR_RESULT CLIENT_pkgSplashscreenGetBackground(const uint32_t screen_num, uint32
 FLR_RESULT CLIENT_pkgSystemsymbolsGetID(const FLR_SYSTEMSYMBOLS_SYMBOL_E symbol, uint8_t *id, FLR_SYSTEMSYMBOLS_ID_TYPE_E *id_type) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 5;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16105,7 +16105,7 @@ FLR_RESULT CLIENT_pkgSystemsymbolsGetID(const FLR_SYSTEMSYMBOLS_SYMBOL_E symbol,
 FLR_RESULT CLIENT_pkgSystemsymbolsSetID(const FLR_SYSTEMSYMBOLS_SYMBOL_E symbol, const uint8_t id, const FLR_SYSTEMSYMBOLS_ID_TYPE_E id_type) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 9;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16157,7 +16157,7 @@ FLR_RESULT CLIENT_pkgSystemsymbolsSetID(const FLR_SYSTEMSYMBOLS_SYMBOL_E symbol,
 FLR_RESULT CLIENT_pkgSystemsymbolsGetEnable(const FLR_SYSTEMSYMBOLS_SYMBOL_E symbol, FLR_ENABLE_E *enabled) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16200,7 +16200,7 @@ FLR_RESULT CLIENT_pkgSystemsymbolsGetEnable(const FLR_SYSTEMSYMBOLS_SYMBOL_E sym
 FLR_RESULT CLIENT_pkgSystemsymbolsSetEnable(const FLR_SYSTEMSYMBOLS_SYMBOL_E symbol, const FLR_ENABLE_E enabled) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16244,7 +16244,7 @@ FLR_RESULT CLIENT_pkgSystemsymbolsSetEnable(const FLR_SYSTEMSYMBOLS_SYMBOL_E sym
 FLR_RESULT CLIENT_pkgSffcGetScaleFactor(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16277,7 +16277,7 @@ FLR_RESULT CLIENT_pkgSffcGetScaleFactor(float *data) {
 FLR_RESULT CLIENT_pkgSffcGetDeltaTempLinearCoeff(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16310,7 +16310,7 @@ FLR_RESULT CLIENT_pkgSffcGetDeltaTempLinearCoeff(float *data) {
 FLR_RESULT CLIENT_pkgSffcSetDeltaTempLinearCoeff(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16342,7 +16342,7 @@ FLR_RESULT CLIENT_pkgSffcSetDeltaTempLinearCoeff(const float data) {
 FLR_RESULT CLIENT_pkgSffcGetDeltaTempOffsetCoeff(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16375,7 +16375,7 @@ FLR_RESULT CLIENT_pkgSffcGetDeltaTempOffsetCoeff(float *data) {
 FLR_RESULT CLIENT_pkgSffcSetDeltaTempOffsetCoeff(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16407,7 +16407,7 @@ FLR_RESULT CLIENT_pkgSffcSetDeltaTempOffsetCoeff(const float data) {
 FLR_RESULT CLIENT_pkgSffcGetFpaTempLinearCoeff(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16440,7 +16440,7 @@ FLR_RESULT CLIENT_pkgSffcGetFpaTempLinearCoeff(float *data) {
 FLR_RESULT CLIENT_pkgSffcSetFpaTempLinearCoeff(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16472,7 +16472,7 @@ FLR_RESULT CLIENT_pkgSffcSetFpaTempLinearCoeff(const float data) {
 FLR_RESULT CLIENT_pkgSffcGetFpaTempOffsetCoeff(float *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16505,7 +16505,7 @@ FLR_RESULT CLIENT_pkgSffcGetFpaTempOffsetCoeff(float *data) {
 FLR_RESULT CLIENT_pkgSffcSetFpaTempOffsetCoeff(const float data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16537,7 +16537,7 @@ FLR_RESULT CLIENT_pkgSffcSetFpaTempOffsetCoeff(const float data) {
 FLR_RESULT CLIENT_pkgSffcGetDeltaTempTimeLimitInSecs(uint32_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16570,7 +16570,7 @@ FLR_RESULT CLIENT_pkgSffcGetDeltaTempTimeLimitInSecs(uint32_t *data) {
 FLR_RESULT CLIENT_pkgSffcSetDeltaTempTimeLimitInSecs(const uint32_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16604,7 +16604,7 @@ FLR_RESULT CLIENT_pkgSffcSetDeltaTempTimeLimitInSecs(const uint32_t data) {
 FLR_RESULT CLIENT_pkgImagestatsGetTotalHistPixelsInROI(uint32_t *totalPixelsInROI) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16637,7 +16637,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetTotalHistPixelsInROI(uint32_t *totalPixelsInRO
 FLR_RESULT CLIENT_pkgImagestatsGetPopBelowLowToHighThresh(uint32_t *popBelowLowToHighThresh) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16670,7 +16670,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetPopBelowLowToHighThresh(uint32_t *popBelowLowT
 FLR_RESULT CLIENT_pkgImagestatsGetPopAboveHighToLowThresh(uint32_t *popAboveHighToLowThresh) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16703,7 +16703,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetPopAboveHighToLowThresh(uint32_t *popAboveHigh
 FLR_RESULT CLIENT_pkgImagestatsSetROI(const FLR_ROI_T roi) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 8;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16735,7 +16735,7 @@ FLR_RESULT CLIENT_pkgImagestatsSetROI(const FLR_ROI_T roi) {
 FLR_RESULT CLIENT_pkgImagestatsGetROI(FLR_ROI_T *roi) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 8;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16768,7 +16768,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetROI(FLR_ROI_T *roi) {
 FLR_RESULT CLIENT_pkgImagestatsGetFirstBin(uint16_t *firstBin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16801,7 +16801,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetFirstBin(uint16_t *firstBin) {
 FLR_RESULT CLIENT_pkgImagestatsGetLastBin(uint16_t *lastBin) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16834,7 +16834,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetLastBin(uint16_t *lastBin) {
 FLR_RESULT CLIENT_pkgImagestatsGetMean(uint16_t *mean) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16867,7 +16867,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetMean(uint16_t *mean) {
 FLR_RESULT CLIENT_pkgImagestatsGetFirstBinInROI(uint16_t *firstBinInROI) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16900,7 +16900,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetFirstBinInROI(uint16_t *firstBinInROI) {
 FLR_RESULT CLIENT_pkgImagestatsGetLastBinInROI(uint16_t *lastBinInROI) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16933,7 +16933,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetLastBinInROI(uint16_t *lastBinInROI) {
 FLR_RESULT CLIENT_pkgImagestatsGetMeanInROI(uint16_t *meanInROI) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -16966,7 +16966,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetMeanInROI(uint16_t *meanInROI) {
 FLR_RESULT CLIENT_pkgImagestatsGetImageStats(uint16_t *meanIntensity, uint16_t *peakIntensity, uint16_t *baseIntensity) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 6;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17023,7 +17023,7 @@ FLR_RESULT CLIENT_pkgImagestatsGetImageStats(uint16_t *meanIntensity, uint16_t *
 FLR_RESULT CLIENT_pkgSrnrSetEnableState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17055,7 +17055,7 @@ FLR_RESULT CLIENT_pkgSrnrSetEnableState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgSrnrGetEnableState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17088,7 +17088,7 @@ FLR_RESULT CLIENT_pkgSrnrGetEnableState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgSrnrSetThRowSum(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17120,7 +17120,7 @@ FLR_RESULT CLIENT_pkgSrnrSetThRowSum(const uint16_t data) {
 FLR_RESULT CLIENT_pkgSrnrGetThRowSum(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17153,7 +17153,7 @@ FLR_RESULT CLIENT_pkgSrnrGetThRowSum(uint16_t *data) {
 FLR_RESULT CLIENT_pkgSrnrSetThPixel(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17185,7 +17185,7 @@ FLR_RESULT CLIENT_pkgSrnrSetThPixel(const uint16_t data) {
 FLR_RESULT CLIENT_pkgSrnrGetThPixel(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17218,7 +17218,7 @@ FLR_RESULT CLIENT_pkgSrnrGetThPixel(uint16_t *data) {
 FLR_RESULT CLIENT_pkgSrnrSetMaxCorr(const uint16_t data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 2;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17250,7 +17250,7 @@ FLR_RESULT CLIENT_pkgSrnrSetMaxCorr(const uint16_t data) {
 FLR_RESULT CLIENT_pkgSrnrGetMaxCorr(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17283,7 +17283,7 @@ FLR_RESULT CLIENT_pkgSrnrGetMaxCorr(uint16_t *data) {
 FLR_RESULT CLIENT_pkgSrnrGetThPixelApplied(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17316,7 +17316,7 @@ FLR_RESULT CLIENT_pkgSrnrGetThPixelApplied(uint16_t *data) {
 FLR_RESULT CLIENT_pkgSrnrGetMaxCorrApplied(uint16_t *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 2;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17351,7 +17351,7 @@ FLR_RESULT CLIENT_pkgSrnrGetMaxCorrApplied(uint16_t *data) {
 FLR_RESULT CLIENT_pkgLfsrSetApplyOffsetEnableState(const FLR_ENABLE_E data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17383,7 +17383,7 @@ FLR_RESULT CLIENT_pkgLfsrSetApplyOffsetEnableState(const FLR_ENABLE_E data) {
 FLR_RESULT CLIENT_pkgLfsrGetApplyOffsetEnableState(FLR_ENABLE_E *data) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17418,7 +17418,7 @@ FLR_RESULT CLIENT_pkgLfsrGetApplyOffsetEnableState(FLR_ENABLE_E *data) {
 FLR_RESULT CLIENT_pkgSysinfoGetMonitorSoftwareRev(uint32_t *major, uint32_t *minor, uint32_t *patch) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 12;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17473,7 +17473,7 @@ FLR_RESULT CLIENT_pkgSysinfoGetMonitorSoftwareRev(uint32_t *major, uint32_t *min
 FLR_RESULT CLIENT_pkgSysinfoGetMonitorBuildVariant(FLR_SYSINFO_MONITOR_BUILD_VARIANT_T *monitorBuildVariant) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 50;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17506,7 +17506,7 @@ FLR_RESULT CLIENT_pkgSysinfoGetMonitorBuildVariant(FLR_SYSINFO_MONITOR_BUILD_VAR
 FLR_RESULT CLIENT_pkgSysinfoGetProductName(uint8_t *name) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 128;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17666,7 +17666,7 @@ FLR_RESULT CLIENT_pkgSysinfoGetProductName(uint8_t *name) {
 FLR_RESULT CLIENT_pkgSysinfoGetCameraSN(uint8_t *number) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 128;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17828,7 +17828,7 @@ FLR_RESULT CLIENT_pkgSysinfoGetCameraSN(uint8_t *number) {
 FLR_RESULT CLIENT_pkgFlashioSetProtectionState(const FLR_ENABLE_E protectionState) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 4;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17860,7 +17860,7 @@ FLR_RESULT CLIENT_pkgFlashioSetProtectionState(const FLR_ENABLE_E protectionStat
 FLR_RESULT CLIENT_pkgFlashioGetProtectionState(FLR_ENABLE_E *protectionState) {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 4;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;
@@ -17895,7 +17895,7 @@ FLR_RESULT CLIENT_pkgFlashioGetProtectionState(FLR_ENABLE_E *protectionState) {
 FLR_RESULT CLIENT_pkgDummyBadCommand() {
     // Allocate buffers with space for marshalled data
     uint32_t sendBytes = 0;
-    const uint8_t sendData[sendBytes];
+    const uint8_t sendData[sendBytes]={};
     uint32_t receiveBytes = 1;
     uint8_t receiveData[receiveBytes];
     uint8_t *outPtr = (uint8_t *)sendData;

@@ -17,6 +17,7 @@
 
 #include <stdint.h>
 #include "ReturnCodes.h"
+#include <unistd.h>
 
 #ifdef _WIN32
 #define FLR_EXPORT __declspec(dllexport)

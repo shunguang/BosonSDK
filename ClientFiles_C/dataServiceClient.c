@@ -184,7 +184,7 @@ static FLR_RESULT parseData(uint8_t *data, uint32_t data_len)
     }
 
     /** parse received data */
-    receiveFrame.cmd = (data[0] & CMD_MASK)>>6;
+    receiveFrame.cmd = (dataServiceFrameCommand_t) ((data[0] & (uint8_t)CMD_MASK)>>6);
     receiveFrame.counter = ((uint16_t)(data[0] & COUNTER_MASK)) << 8 | (uint16_t) (data[1]);
     if(data_len > 2)
     {

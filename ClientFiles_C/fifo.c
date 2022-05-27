@@ -55,7 +55,7 @@ fifo_p fifoCreate(uint32_t size)
         return NULL;
     }
 
-    fifo = malloc(sizeof(fifo_t));
+    fifo = (fifo_p)malloc(sizeof(fifo_t));
     if(!fifo)
     {
         DEBUG_ERR("Fifo structure memory allocation error occurred\n");
@@ -63,7 +63,7 @@ fifo_p fifoCreate(uint32_t size)
     }
 
     fifo->head = fifo->tail =  fifo->length = 0;
-    fifo->buffer = malloc(size * sizeof(uint8_t));
+    fifo->buffer = (uint8_t *)malloc(size * sizeof(uint8_t));
     if(!fifo->buffer)
     {
         free(fifo);
